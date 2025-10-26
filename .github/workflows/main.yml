@@ -1,5 +1,5 @@
 # Tên của kịch bản
-name: Fetch VnExpress RSS
+name: Fetch News RSS
 
 # Lịch chạy: Chạy tự động 30 phút một lần
 on:
@@ -40,8 +40,8 @@ jobs:
           import feedparser
           import json
 
-          # URL của RSS
-          RSS_URL = "https://vnexpress.net/rss/tin-moi-nhat.rss"
+          # *** THAY ĐỔI: Dùng RSS của Dân Trí ***
+          RSS_URL = "https://dantri.com.vn/rss/home.rss"
           
           # Giả mạo làm trình duyệt Firefox để tránh bị chặn
           USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0"
@@ -52,9 +52,9 @@ jobs:
           
           # Kiểm tra xem có lấy được tin không
           if not feed.entries:
-              print("Error: Could not fetch RSS entries. VnExpress might be blocking or RSS is empty.")
+              print("Error: Could not fetch RSS entries. Feed might be blocking or empty.")
               # Tạo file JSON rỗng để không làm sập ESP32
-              json_output = {"headlines": ["Lỗi: Không thể tải tin tức từ VnExpress."]}
+              json_output = {"headlines": ["Lỗi: Không thể tải tin tức."]}
           else:
               print(f"Successfully fetched {len(feed.entries)} entries.")
               headlines = []
