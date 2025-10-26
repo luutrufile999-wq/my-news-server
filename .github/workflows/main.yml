@@ -36,11 +36,17 @@ jobs:
 
       # Bước 4: Chạy script Python để tải và phân tích RSS
       - name: Fetch and Parse RSS
+      
+        # *** DÒNG SỬA LỖI QUAN TRỌNG: ***
+        # Báo cho GitHub Actions dùng "python" để chạy, không dùng "bash"
+        shell: python 
+        
         run: |
           import feedparser
           import json
+          import os
 
-          # *** THAY ĐỔI: Dùng RSS của Dân Trí ***
+          # Dùng RSS của Dân Trí
           RSS_URL = "https://dantri.com.vn/rss/home.rss"
           
           # Giả mạo làm trình duyệt Firefox để tránh bị chặn
@@ -72,6 +78,7 @@ jobs:
               json.dump(json_output, f, ensure_ascii=False, indent=2)
           
           print("news.json file created successfully.")
+          print(f"Current directory content: {os.listdir('.')}")
 
       # Bước 5: Lưu file news.json mới vào kho chứa
       - name: Commit and Push new news.json
