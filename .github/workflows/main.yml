@@ -1,0 +1,72 @@
+# Tên của kịch bản
+name: Fetch VnExpress RSS
+
+# Lịch chạy: Chạy tự động 30 phút một lần
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  # Dòng này cho phép bạn chạy thủ công (để test)
+  workflow_dispatch:
+
+# Các công việc cần làm
+jobs:
+  fetch-rss:
+    # Chạy trên một máy ảo Ubuntu (do GitHub cung cấp)
+    runs-on: ubuntu-latest
+    
+    # Cấp quyền cho kịch bản để nó có thể "lưu" file vào kho chứa
+    permissions:
+      contents: write
+
+    steps:
+      # Bước 1: Tải code từ kho chứa của bạn về máy ảo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Bước 2: Cài đặt Python 3.10
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # Bước 3: Cài đặt thư viện Python (feedparser) để đọc RSS
+      - name: Install dependencies
+        run: |
+          pip install feedparser
+
+      # Bước 4: Chạy script Python để tải và phân tích RSS
+      - name: Fetch and Parse RSS
+        run: |
+          import feedparser
+          import json
+
+          # URL của RSS
+          RSS_URL = "https://vnexpress.net/rss/tin-moi-nhat.rss"
+          
+          # Tải và phân tích
+          feed = feedparser.parse(RSS_URL)
+          
+          headlines = []
+          # Lấy 3 tiêu đề đầu tiên
+          for entry in feed.entries[:3]:
+              headlines.append(entry.title)
+          
+          # Tạo nội dung JSON
+          json_output = {
+              "headlines": headlines
+          }
+          
+          # Ghi ra file news.json
+          with open('news.json', 'w', encoding='utf-8') as f:
+              json.dump(json_output, f, ensure_ascii=False, indent=2)
+
+      # Bước 5: Lưu file news.json mới vào kho chứa (quan trọng)
+      # Việc này sẽ tự động xuất bản nó lên GitHub Pages
+      - name: Commit and Push new news.json
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add news.json
+          # Chỉ lưu nếu có thay đổi
+          git commit -m "Update news.json with latest headlines" || echo "No changes to commit"
+          git push
