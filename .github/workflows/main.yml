@@ -26,19 +26,16 @@ jobs:
         with:
           python-version: '3.10'
 
-      # Bước 3: Cài đặt các thư viện (thêm 2 thư viện mới)
+      # Bước 3: Cài đặt các thư viện
       - name: Install dependencies
         run: |
           pip install feedparser
           pip install requests
           pip install beautifulsoup4
 
-      # Bước 4A: Chạy script Python để tải tin tức RSS
+      # Bước 4A: Chạy script Python để tải tin tức RSS (Không đổi)
       - name: Fetch and Parse RSS Categories
-      
-        # Sửa lỗi 'import: command not found'
         shell: python 
-        
         run: |
           import feedparser
           import json
@@ -80,12 +77,9 @@ jobs:
           
           print("All RSS files created successfully.")
 
-      # Bước 4B: Chạy script Python để "cào" giá vàng SJC
+      # Bước 4B: (ĐÃ SỬA LỖI) Chạy script Python để "cào" giá vàng SJC
       - name: Scrape SJC Gold Price
-      
-        # Sửa lỗi 'import: command not found'
         shell: python
-        
         run: |
           import requests
           from bs4 import BeautifulSoup
@@ -99,41 +93,56 @@ jobs:
           print(f"Scraping SJC Gold Price from {SJC_URL}...")
           
           try:
-              # Tải trang web
               headers = {'User-Agent': USER_AGENT}
               response = requests.get(SJC_URL, headers=headers)
               response.raise_for_status() 
               
               soup = BeautifulSoup(response.text, 'html.parser')
-              price_table = soup.find('div', id='price-hcm')
+              
+              # *** SỬA LỖI: Tìm bảng giá bằng cách khác ***
+              # 1. Tìm tất cả các bảng có class 'table-price'
+              price_table = soup.find('table', class_='table-price')
+              
+              # 2. Nếu không thấy, tìm bất kỳ bảng nào (dự phòng)
+              if not price_table:
+                  price_table = soup.find('table')
+                  print("Warning: Could not find 'table-price'. Using first available table.")
+              
+              if not price_table:
+                  raise Exception("No HTML table found on the page.")
+
+              # 3. Tìm dòng 'SJC 1L, 10L' bên trong bảng đó
               sjc_row = price_table.find(lambda tag: tag.name == 'td' and 'SJC 1L, 10L' in tag.get_text())
               
               if sjc_row:
                   parent_row = sjc_row.find_parent('tr')
                   cells = parent_row.find_all('td')
-                  buy_price = cells[1].get_text(strip=True)
-                  sell_price = cells[2].get_text(strip=True)
                   
-                  print(f"Found SJC 1L Price: Mua={buy_price}, Bán={sell_price}")
-                  
-                  summary = f"Giá vàng SJC 1 lượng, 10 lượng được niêm yết tại Hồ Chí Minh. Giá mua vào là {buy_price} triệu đồng. Giá bán ra là {sell_price} triệu đồng."
-                  
-                  json_output = {
-                      "articles": [
-                          {
-                              "id": 1,
-                              "title": f"Vàng SJC Mua: {buy_price} | Bán: {sell_price}",
-                              "summary": summary
-                          }
-                      ]
-                  }
+                  if len(cells) >= 3: # Đảm bảo có đủ 3 cột
+                      buy_price = cells[1].get_text(strip=True)
+                      sell_price = cells[2].get_text(strip=True)
+                      
+                      print(f"Found SJC 1L Price: Mua={buy_price}, Bán={sell_price}")
+                      
+                      summary = f"Giá vàng SJC 1 lượng, 10 lượng. Giá mua vào là {buy_price} triệu đồng. Giá bán ra là {sell_price} triệu đồng."
+                      
+                      json_output = {
+                          "articles": [
+                              {
+                                  "id": 1,
+                                  "title": f"Vàng SJC Mua: {buy_price} | Bán: {sell_price}",
+                                  "summary": summary
+                              }
+                          ]
+                      }
+                  else:
+                      raise Exception(f"SJC 1L row found, but has fewer than 3 columns. (found {len(cells)})")
               else:
-                  print("Error: Could not find SJC 1L row in the HTML table.")
-                  json_output = {"articles": [{"id": 1, "title": "Lỗi", "summary": "Không tìm thấy giá SJC 1L trong bảng."}]}
+                  raise Exception("Could not find 'SJC 1L, 10L' row in the price table.")
 
           except Exception as e:
               print(f"An error occurred during scraping: {e}")
-              json_output = {"articles": [{"id": 1, "title": "Lỗi", "summary": f"Lỗi khi cào dữ liệu: {e}"}]}
+              json_output = {"articles": [{"id": 1, "title": "Lỗi", "summary": f"Lỗi khi cào dữ liệu SJC: {e}"}]}
 
           # Ghi ra file sjc.json
           with open('sjc.json', 'w', encoding='utf-8') as f:
@@ -147,10 +156,9 @@ jobs:
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
           
-          # *** DÒNG SỬA LỖI QUAN TRỌNG: ***
           # Kéo (pull) các thay đổi (nếu có) trước khi đẩy (push)
           git pull
           
           git add *.json
-          git commit -m "Update news and SJC gold price (fixed git sync)" || echo "No changes to commit"
+          git commit -m "Update news and SJC gold price (fixed SJC scraping logic)" || echo "No changes to commit"
           git push
