@@ -1,5 +1,5 @@
 # Tên của kịch bản
-name: Fetch News RSS and Gold Price
+name: Fetch News RSS by Category
 
 # Lịch chạy: Chạy tự động 30 phút một lần
 on:
@@ -16,7 +16,7 @@ jobs:
       contents: write
 
     steps:
-      # Bước 1: Tải code từ kho chứa của bạn về máy ảo
+      # Bước 1: Tải code
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -26,21 +26,23 @@ jobs:
         with:
           python-version: '3.10'
 
-      # Bước 3: Cài đặt các thư viện
+      # Bước 3: Cài đặt thư viện feedparser
       - name: Install dependencies
         run: |
           pip install feedparser
-          pip install requests
-          pip install beautifulsoup4
 
-      # Bước 4A: Chạy script Python để tải tin tức RSS (Không đổi)
-      - name: Fetch and Parse RSS Categories
+      # Bước 4: Chạy script Python để tải VÀ PHÂN LOẠI RSS
+      - name: Fetch and Parse All Categories
+      
+        # Báo cho GitHub Actions dùng "python" để chạy
         shell: python 
+        
         run: |
           import feedparser
           import json
           import os
 
+          # (Đã xóa SJC, chỉ giữ lại các link RSS hoạt động)
           CATEGORIES = {
               "tin-moi-nhat": "https://dantri.com.vn/rss/home.rss",
               "the-gioi": "https://dantri.com.vn/rss/the-gioi.rss",
@@ -53,6 +55,9 @@ jobs:
           
           USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0"
           
+          all_files_created = True
+
+          # Lặp qua từng chủ đề
           for filename_prefix, url in CATEGORIES.items():
               print(f"--- Fetching category: {filename_prefix} ---")
               feed = feedparser.parse(url, agent=USER_AGENT)
@@ -61,6 +66,7 @@ jobs:
               if not feed.entries:
                   print(f"Error fetching {filename_prefix}.")
                   articles.append({"id": 1, "title": "Lỗi", "summary": "Không thể tải tin tức."})
+                  all_files_created = False
               else:
                   for i, entry in enumerate(feed.entries[:3]):
                       articles.append({
@@ -75,80 +81,10 @@ jobs:
                   json.dump(json_output, f, ensure_ascii=False, indent=2)
               print(f"Created {output_filename}")
           
+          if not all_files_created:
+              print("Warning: Some RSS feeds failed to fetch.")
+          
           print("All RSS files created successfully.")
-
-      # Bước 4B: (ĐÃ SỬA LỖI) Chạy script Python để "cào" giá vàng SJC
-      - name: Scrape SJC Gold Price
-        shell: python
-        run: |
-          import requests
-          from bs4 import BeautifulSoup
-          import json
-          import re
-
-          # Dùng link TRANG CHỦ (hoạt động)
-          SJC_URL = "https://sjc.com.vn/"
-          USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-          
-          print(f"Scraping SJC Gold Price from {SJC_URL}...")
-          
-          try:
-              headers = {'User-Agent': USER_AGENT}
-              response = requests.get(SJC_URL, headers=headers)
-              response.raise_for_status() 
-              
-              soup = BeautifulSoup(response.text, 'html.parser')
-              
-              # *** SỬA LỖI: Tìm bảng giá bằng cách khác ***
-              # 1. Tìm tất cả các bảng có class 'table-price'
-              price_table = soup.find('table', class_='table-price')
-              
-              # 2. Nếu không thấy, tìm bất kỳ bảng nào (dự phòng)
-              if not price_table:
-                  price_table = soup.find('table')
-                  print("Warning: Could not find 'table-price'. Using first available table.")
-              
-              if not price_table:
-                  raise Exception("No HTML table found on the page.")
-
-              # 3. Tìm dòng 'SJC 1L, 10L' bên trong bảng đó
-              sjc_row = price_table.find(lambda tag: tag.name == 'td' and 'SJC 1L, 10L' in tag.get_text())
-              
-              if sjc_row:
-                  parent_row = sjc_row.find_parent('tr')
-                  cells = parent_row.find_all('td')
-                  
-                  if len(cells) >= 3: # Đảm bảo có đủ 3 cột
-                      buy_price = cells[1].get_text(strip=True)
-                      sell_price = cells[2].get_text(strip=True)
-                      
-                      print(f"Found SJC 1L Price: Mua={buy_price}, Bán={sell_price}")
-                      
-                      summary = f"Giá vàng SJC 1 lượng, 10 lượng. Giá mua vào là {buy_price} triệu đồng. Giá bán ra là {sell_price} triệu đồng."
-                      
-                      json_output = {
-                          "articles": [
-                              {
-                                  "id": 1,
-                                  "title": f"Vàng SJC Mua: {buy_price} | Bán: {sell_price}",
-                                  "summary": summary
-                              }
-                          ]
-                      }
-                  else:
-                      raise Exception(f"SJC 1L row found, but has fewer than 3 columns. (found {len(cells)})")
-              else:
-                  raise Exception("Could not find 'SJC 1L, 10L' row in the price table.")
-
-          except Exception as e:
-              print(f"An error occurred during scraping: {e}")
-              json_output = {"articles": [{"id": 1, "title": "Lỗi", "summary": f"Lỗi khi cào dữ liệu SJC: {e}"}]}
-
-          # Ghi ra file sjc.json
-          with open('sjc.json', 'w', encoding='utf-8') as f:
-              json.dump(json_output, f, ensure_ascii=False, indent=2)
-          
-          print("sjc.json file created successfully.")
 
       # Bước 5: Lưu TẤT CẢ CÁC file .json mới vào kho chứa
       - name: Commit and Push new .json files
@@ -160,5 +96,5 @@ jobs:
           git pull
           
           git add *.json
-          git commit -m "Update news and SJC gold price (fixed SJC scraping logic)" || echo "No changes to commit"
+          git commit -m "Update all RSS news feeds" || echo "No changes to commit"
           git push
