@@ -42,14 +42,15 @@ jobs:
           import json
           import os
 
-          # (Đã xóa SJC, chỉ giữ lại các link RSS hoạt động)
+          # === THAY ĐỔI: Sửa link RSS cho "gia-vang" ===
           CATEGORIES = {
               "tin-moi-nhat": "https://dantri.com.vn/rss/home.rss",
               "the-gioi": "https://dantri.com.vn/rss/the-gioi.rss",
               "the-thao": "https://dantri.com.vn/rss/the-thao.rss",
               "kinh-doanh": "https://dantri.com.vn/rss/kinh-doanh.rss",
               "xa-hoi": "https://dantri.com.vn/rss/xa-hoi.rss",
-              "gia-vang": "https://bnews.vn/rss/gia-vang-32.rss",
+              # Link MỚI (Từ CafeF - Tin tức Thị trường Vàng)
+              "gia-vang": "https://cafef.vn/thi-truong-vang.rss", 
               "chung-khoan": "https://thanhnien.vn/rss/kinh-te/chung-khoan.rss"
           }
           
@@ -65,7 +66,8 @@ jobs:
               articles = []
               if not feed.entries:
                   print(f"Error fetching {filename_prefix}.")
-                  articles.append({"id": 1, "title": "Lỗi", "summary": "Không thể tải tin tức."})
+                  # Ghi lỗi vào file JSON để ESP32 biết
+                  articles.append({"id": 1, "title": "Lỗi", "summary": f"Không thể tải tin tức từ nguồn {url}."})
                   all_files_created = False
               else:
                   for i, entry in enumerate(feed.entries[:3]):
@@ -96,5 +98,6 @@ jobs:
           git pull
           
           git add *.json
-          git commit -m "Update all RSS news feeds" || echo "No changes to commit"
+          # Sửa commit message
+          git commit -m "Update RSS feeds (changed gold source to CafeF)" || echo "No changes to commit"
           git push
