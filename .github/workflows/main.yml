@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      # Bước 3: Cài đặt các thư viện (thêm 2 thư viện mới)
+      # Bước 3: Cài đặt các thư viện
       - name: Install dependencies
         run: |
           pip install feedparser
@@ -35,7 +35,7 @@ jobs:
 
       # Bước 4A: Chạy script Python để tải tin tức RSS (cho các chủ đề khác)
       - name: Fetch and Parse RSS Categories
-        shell: python 
+        shell: python
         run: |
           import feedparser
           import json
@@ -50,13 +50,13 @@ jobs:
               "xa-hoi": "https://dantri.com.vn/rss/xa-hoi.rss",
               "chung-khoan": "https://thanhnien.vn/rss/kinh-te/chung-khoan.rss"
           }
-          
+
           USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0"
-          
+
           for filename_prefix, url in CATEGORIES.items():
               print(f"--- Fetching category: {filename_prefix} ---")
               feed = feedparser.parse(url, agent=USER_AGENT)
-              
+
               articles = []
               if not feed.entries:
                   print(f"Error fetching {filename_prefix}.")
@@ -68,16 +68,16 @@ jobs:
                           "title": entry.title,
                           "summary": entry.get('summary', entry.get('description', 'Không có nội dung chi tiết.'))
                       })
-              
+
               json_output = {"articles": articles}
               output_filename = f"{filename_prefix}.json"
               with open(output_filename, 'w', encoding='utf-8') as f:
                   json.dump(json_output, f, ensure_ascii=False, indent=2)
               print(f"Created {output_filename}")
-          
+
           print("All RSS files created successfully.")
 
-      # Bước 4B: (MỚI) Chạy script Python để "cào" giá vàng SJC từ WebGia
+      # Bước 4B: (ĐÃ SỬA LỖI) Chạy script Python để "cào" giá vàng SJC từ WebGia
       - name: Scrape SJC Gold Price (from WebGia)
         shell: python
         run: |
@@ -88,39 +88,46 @@ jobs:
 
           SJC_URL = "https://webgia.com/gia-vang/sjc/"
           USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-          
+
           print(f"Scraping SJC Gold Price from {SJC_URL}...")
-          
+
           try:
               headers = {'User-Agent': USER_AGENT}
               response = requests.get(SJC_URL, headers=headers)
-              response.raise_for_status() 
-              
-              soup = BeautifulSoup(response.text, 'html.parser')
-              
-              # Tìm bảng giá
-              price_table = soup.find('table', class_='table-gold')
-              
-              if not price_table:
-                  raise Exception("No HTML table with class 'table-gold' found.")
+              response.raise_for_status()
 
-              # Tìm dòng 'SJC 1L, 10L'
-              sjc_row = None
-              for row in price_table.find_all('tr'):
-                  cells = row.find_all('td')
-                  if cells and 'SJC 1L, 10L' in cells[0].get_text():
-                      sjc_row = cells
-                      break
-              
-              if sjc_row:
+              soup = BeautifulSoup(response.text, 'html.parser')
+
+              # *** SỬA LỖI: Tìm bảng chứa text 'SJC 1L, 10L' ***
+              sjc_row_cells = None
+              found_table = False
+              # 1. Tìm tất cả các bảng trên trang
+              for table in soup.find_all('table'):
+                  # 2. Trong mỗi bảng, tìm dòng chứa 'SJC 1L, 10L'
+                  for row in table.find_all('tr'):
+                      cells = row.find_all('td')
+                      # Kiểm tra xem có ô nào chứa text không
+                      if cells and 'SJC 1L, 10L' in cells[0].get_text():
+                          sjc_row_cells = cells # Lưu lại các ô của dòng này
+                          found_table = True
+                          break # Thoát vòng lặp trong
+                  if found_table:
+                      break # Thoát vòng lặp ngoài
+
+              if sjc_row_cells:
                   # Cột 1 là Mua vào, Cột 2 là Bán ra
-                  buy_price = sjc_row[1].get_text(strip=True)
-                  sell_price = sjc_row[2].get_text(strip=True)
-                  
+                  buy_price = sjc_row_cells[1].get_text(strip=True)
+                  sell_price = sjc_row_cells[2].get_text(strip=True)
+
+                  # Xóa dấu phẩy nếu có (ví dụ: 147,200,000 -> 147200000)
+                  buy_price = buy_price.replace(',', '')
+                  sell_price = sell_price.replace(',', '')
+
                   print(f"Found SJC 1L Price: Mua={buy_price}, Bán={sell_price}")
-                  
+
+                  # Định dạng lại thành câu (Thêm đơn vị "đồng")
                   summary = f"Giá vàng SJC 1 lượng. Mua vào: {buy_price} đồng. Bán ra: {sell_price} đồng."
-                  
+
                   json_output = {
                       "articles": [
                           {
@@ -131,7 +138,7 @@ jobs:
                       ]
                   }
               else:
-                  raise Exception("Could not find 'SJC 1L, 10L' row in the price table.")
+                  raise Exception("Could not find 'SJC 1L, 10L' row in any table on the page.")
 
           except Exception as e:
               print(f"An error occurred during scraping: {e}")
@@ -140,7 +147,7 @@ jobs:
           # Ghi ra file sjc-price.json
           with open('sjc-price.json', 'w', encoding='utf-8') as f:
               json.dump(json_output, f, ensure_ascii=False, indent=2)
-          
+
           print("sjc-price.json file created successfully.")
 
       # Bước 5: Lưu TẤT CẢ CÁC file .json mới vào kho chứa
@@ -148,10 +155,10 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
-          
+
           # Kéo (pull) các thay đổi (nếu có) trước khi đẩy (push)
           git pull
-          
+
           git add *.json
-          git commit -m "Update news and SJC gold price (using webgia.com)" || echo "No changes to commit"
+          git commit -m "Update news and SJC gold price (improved scraping logic)" || echo "No changes to commit"
           git push
