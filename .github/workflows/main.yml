@@ -1,5 +1,5 @@
 # Tên của kịch bản
-name: Fetch News RSS by Category
+name: Fetch News RSS and Gold Price
 
 # Lịch chạy: Chạy tự động 30 phút một lần
 on:
@@ -26,39 +26,33 @@ jobs:
         with:
           python-version: '3.10'
 
-      # Bước 3: Cài đặt thư viện feedparser
+      # Bước 3: Cài đặt các thư viện (thêm 2 thư viện mới)
       - name: Install dependencies
         run: |
           pip install feedparser
+          pip install requests
+          pip install beautifulsoup4
 
-      # Bước 4: Chạy script Python để tải VÀ PHÂN LOẠI RSS
-      - name: Fetch and Parse All Categories
-      
-        # Báo cho GitHub Actions dùng "python" để chạy
+      # Bước 4A: Chạy script Python để tải tin tức RSS (cho các chủ đề khác)
+      - name: Fetch and Parse RSS Categories
         shell: python 
-        
         run: |
           import feedparser
           import json
           import os
 
-          # === THAY ĐỔI: Sửa link RSS cho "gia-vang" ===
+          # Các chủ đề tin tức (không có vàng)
           CATEGORIES = {
               "tin-moi-nhat": "https://dantri.com.vn/rss/home.rss",
               "the-gioi": "https://dantri.com.vn/rss/the-gioi.rss",
               "the-thao": "https://dantri.com.vn/rss/the-thao.rss",
               "kinh-doanh": "https://dantri.com.vn/rss/kinh-doanh.rss",
               "xa-hoi": "https://dantri.com.vn/rss/xa-hoi.rss",
-              # Link MỚI (Từ CafeF - Tin tức Thị trường Vàng)
-              "gia-vang": "https://cafef.vn/thi-truong-vang.rss", 
               "chung-khoan": "https://thanhnien.vn/rss/kinh-te/chung-khoan.rss"
           }
           
           USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0"
           
-          all_files_created = True
-
-          # Lặp qua từng chủ đề
           for filename_prefix, url in CATEGORIES.items():
               print(f"--- Fetching category: {filename_prefix} ---")
               feed = feedparser.parse(url, agent=USER_AGENT)
@@ -66,9 +60,7 @@ jobs:
               articles = []
               if not feed.entries:
                   print(f"Error fetching {filename_prefix}.")
-                  # Ghi lỗi vào file JSON để ESP32 biết
-                  articles.append({"id": 1, "title": "Lỗi", "summary": f"Không thể tải tin tức từ nguồn {url}."})
-                  all_files_created = False
+                  articles.append({"id": 1, "title": "Lỗi", "summary": "Không thể tải tin tức."})
               else:
                   for i, entry in enumerate(feed.entries[:3]):
                       articles.append({
@@ -83,10 +75,73 @@ jobs:
                   json.dump(json_output, f, ensure_ascii=False, indent=2)
               print(f"Created {output_filename}")
           
-          if not all_files_created:
-              print("Warning: Some RSS feeds failed to fetch.")
-          
           print("All RSS files created successfully.")
+
+      # Bước 4B: (MỚI) Chạy script Python để "cào" giá vàng SJC từ WebGia
+      - name: Scrape SJC Gold Price (from WebGia)
+        shell: python
+        run: |
+          import requests
+          from bs4 import BeautifulSoup
+          import json
+          import re
+
+          SJC_URL = "https://webgia.com/gia-vang/sjc/"
+          USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+          
+          print(f"Scraping SJC Gold Price from {SJC_URL}...")
+          
+          try:
+              headers = {'User-Agent': USER_AGENT}
+              response = requests.get(SJC_URL, headers=headers)
+              response.raise_for_status() 
+              
+              soup = BeautifulSoup(response.text, 'html.parser')
+              
+              # Tìm bảng giá
+              price_table = soup.find('table', class_='table-gold')
+              
+              if not price_table:
+                  raise Exception("No HTML table with class 'table-gold' found.")
+
+              # Tìm dòng 'SJC 1L, 10L'
+              sjc_row = None
+              for row in price_table.find_all('tr'):
+                  cells = row.find_all('td')
+                  if cells and 'SJC 1L, 10L' in cells[0].get_text():
+                      sjc_row = cells
+                      break
+              
+              if sjc_row:
+                  # Cột 1 là Mua vào, Cột 2 là Bán ra
+                  buy_price = sjc_row[1].get_text(strip=True)
+                  sell_price = sjc_row[2].get_text(strip=True)
+                  
+                  print(f"Found SJC 1L Price: Mua={buy_price}, Bán={sell_price}")
+                  
+                  summary = f"Giá vàng SJC 1 lượng. Mua vào: {buy_price} đồng. Bán ra: {sell_price} đồng."
+                  
+                  json_output = {
+                      "articles": [
+                          {
+                              "id": 1,
+                              "title": f"Vàng SJC Mua: {buy_price} | Bán: {sell_price}",
+                              "summary": summary
+                          }
+                      ]
+                  }
+              else:
+                  raise Exception("Could not find 'SJC 1L, 10L' row in the price table.")
+
+          except Exception as e:
+              print(f"An error occurred during scraping: {e}")
+              json_output = {"articles": [{"id": 1, "title": "Lỗi", "summary": f"Lỗi khi cào dữ liệu SJC: {e}"}]}
+
+          # Ghi ra file sjc-price.json
+          with open('sjc-price.json', 'w', encoding='utf-8') as f:
+              json.dump(json_output, f, ensure_ascii=False, indent=2)
+          
+          print("sjc-price.json file created successfully.")
 
       # Bước 5: Lưu TẤT CẢ CÁC file .json mới vào kho chứa
       - name: Commit and Push new .json files
@@ -98,6 +153,5 @@ jobs:
           git pull
           
           git add *.json
-          # Sửa commit message
-          git commit -m "Update RSS feeds (changed gold source to CafeF)" || echo "No changes to commit"
+          git commit -m "Update news and SJC gold price (using webgia.com)" || echo "No changes to commit"
           git push
