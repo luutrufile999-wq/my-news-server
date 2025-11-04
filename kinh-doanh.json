@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Vượt Mỹ, châu Á thành thị trường nhập khẩu nông sản lớn nhất của Việt Nam",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/vuot-my-chau-a-thanh-thi-truong-nhap-khau-nong-san-lon-nhat-cua-viet-nam-20251104202932115.htm\"><img src=\"https://icdn.dantri.com.vn/2025/11/04/anh-2-cropped-1762262666361.jpg\" /></a>(Dân trí) - Trong 10 tháng đầu năm, xuất khẩu nông, lâm, thủy sản của Việt Nam đạt 58,13 tỷ USD, tăng gần 13% so với cùng kỳ năm trước. Châu Á vượt Mỹ, trở thành thị trường nhập khẩu lớn nhất của nông sản Việt."
+    },
+    {
+      "id": 2,
       "title": "Sắp diễn ra tuần lễ mua sắm online lớn nhất năm, giảm giá tới 100%",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/sap-dien-ra-tuan-le-mua-sam-online-lon-nhat-nam-giam-gia-toi-100-20251104185446680.htm\"><img src=\"https://icdn.dantri.com.vn/2025/11/04/na06977jpg-1762256961090.jpg\" /></a>(Dân trí) - Online Friday 2025 sẽ diễn ra từ 13-17/11, là sự kiện mua sắm trực tuyến lớn nhất năm với nhiều hoạt động khuyến mại đến 100% và có chương trình livestream hướng dẫn phân biệt hàng thật, hàng giả."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Chuyên gia hiến kế biến “vàng trong két” thành vốn cho nền kinh tế",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/chuyen-gia-hien-ke-bien-vang-trong-ket-thanh-von-cho-nen-kinh-te-20251104164119697.htm\"><img src=\"https://icdn.dantri.com.vn/2025/10/28/gia-vang-dut-chuoi-tang-nong-tin-hieu-bong-bong-bat-dau-xuat-hien-1761657220541.jpg\" /></a>(Dân trí) - Một trong những vấn đề được quan tâm tại sự kiện Diễn đàn Đầu tư Việt Nam 2026 ngày 4/11 liên quan đến việc huy động vàng trong dân, từ đó chuyển hoá thành nguồn lực phát triển đất nước."
-    },
-    {
-      "id": 3,
-      "title": "Ngân hàng tăng tốc đua lãi suất tiền gửi cuối năm",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/ngan-hang-tang-toc-dua-lai-suat-tien-gui-cuoi-nam-20251104103406128.htm\"><img src=\"https://icdn.dantri.com.vn/2025/05/29/dbqh-lo-rui-ro-va-lam-dung-chinh-sach-khi-cho-vay-lai-suat-dac-biet-0-edited-1748484570655.jpg\" /></a>(Dân trí) - Áp lực huy động vốn cuối năm và cạnh tranh với vàng, chứng khoán khiến nhiều ngân hàng nâng lãi suất tiền gửi vượt 7%/năm, thậm chí chạm 9%/năm."
     }
   ]
 }
