@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Chủ tịch Triều Tiên thị sát nhà máy đóng tàu ngầm hạt nhân 8.700 tấn",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/chu-tich-trieu-tien-thi-sat-nha-may-dong-tau-ngam-hat-nhan-8700-tan-20251225072250163.htm\"><img src=\"https://icdn.dantri.com.vn/2025/12/25/1jpg-1766621978897.jpg\" /></a>(Dân trí) - Nhà lãnh đạo Triều Tiên Kim Jong-un đã trực tiếp thị sát một vụ phóng thử tên lửa, cũng như thăm nhà máy đóng tàu ngầm hạt nhân."
+    },
+    {
+      "id": 2,
       "title": "Báo Mỹ: Washington tăng cường quân sự gần Venezuela",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/bao-my-washington-tang-cuong-quan-su-gan-venezuela-20251225062139589.htm\"><img src=\"https://icdn.dantri.com.vn/2025/12/25/bao-my-washington-tang-cuong-quan-su-gan-venezuela-1766618403048.jpg\" /></a>(Dân trí) - Mỹ được cho là đang tăng cường hiện diện quân sự gần Venezuela bằng cách triển khai thêm lực lượng đến vùng biển Caribe trong bối cảnh căng thẳng leo thang."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Ukraine mở đường cho đề xuất chưa từng có trong dự thảo hòa bình với Nga",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/ukraine-mo-duong-cho-de-xuat-chua-tung-co-trong-du-thao-hoa-binh-voi-nga-20251225062325049.htm\"><img src=\"https://icdn.dantri.com.vn/2025/12/25/zelenskyunited24jpg-1766618488415.jpg\" /></a>(Dân trí) - Bản dự thảo hòa bình của Ukraine lần đầu tiên nêu khả năng liên quan đến việc điều chỉnh triển khai quân đội Ukraine ở vùng Donbass, miền Đông đất nước."
-    },
-    {
-      "id": 3,
-      "title": "20 điểm then chốt Ukraine đề xuất để chấm dứt xung đột với Nga",
-      "summary": "<a href=\"https://dantri.com.vn/the-gioi/20-diem-then-chot-ukraine-de-xuat-de-cham-dut-xung-dot-voi-nga-20251224224810286.htm\"><img src=\"https://icdn.dantri.com.vn/2025/10/28/zelenreutersjpg-1761646065257.jpg\" /></a>(Dân trí) - Kế hoạch hòa bình 20 điểm do Ukraine đề xuất đã đề cập đến một loạt vấn đề then chốt nhằm giải quyết cuộc xung đột với Nga."
     }
   ]
 }
