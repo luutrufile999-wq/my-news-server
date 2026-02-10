@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "TPHCM: Siêu thị \"thất thủ\" trước Tết, khách chen chân mua sắm đến khuya",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/tphcm-sieu-thi-that-thu-truoc-tet-khach-chen-chan-mua-sam-den-khuya-20260211040858370.htm\"><img src=\"https://icdn.dantri.com.vn/2026/02/11/sieuthitet2026baoquyen-1770751917210.jpg?watermark=true\" /></a>(Dân trí) - Tối 23 Tết, người dân TPHCM đổ về các trung tâm mua sắm, siêu thị khiến khu vực quầy thanh toán luôn trong tình trạng ùn ứ, nhiều người phải xếp hàng dài chờ đến lượt."
+    },
+    {
+      "id": 2,
       "title": "Nghịch lý trái cây Tết: Dưa khắc chữ \"cháy hàng\", bưởi hồ lô giảm nhiệt",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/nghich-ly-trai-cay-tet-dua-khac-chu-chay-hang-buoi-ho-lo-giam-nhiet-20260210162803955.htm\"><img src=\"https://icdn.dantri.com.vn/2026/02/10/7jpg-1770714858077.jpg\" /></a>(Dân trí) - Dịp Tết Bính Ngọ, trong khi dưa hấu khắc laser \"cháy hàng\" nhờ livestream, nhiều nhà vườn miền Tây lại lo lắng vì trái cây tạo hình truyền thống như bưởi hồ lô đang mất dần sức hút vì không mới."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Đề xuất mới: Nhiều dịch vụ không cần xuất hóa đơn từng giao dịch",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/de-xuat-moi-nhieu-dich-vu-khong-can-xuat-hoa-don-tung-giao-dich-20260210160612285.htm\"><img src=\"https://icdn.dantri.com.vn/2024/12/05/giao-dich-ngan-hang-1tien-tuan-edited-1733375552664.jpeg\" /></a>(Dân trí) - Bộ Tài chính đề xuất cho phép ngân hàng, chứng khoán, taxi, rạp chiếu phim, thương mại điện tử được xuất hóa đơn tổng cuối ngày, thay vì từng lần như quy định hiện nay."
-    },
-    {
-      "id": 3,
-      "title": "Từng kiếm 1.500 tỷ/năm, \"đại gia\" dệt may phải cho thuê mặt bằng bán đồ ăn",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/tung-kiem-1500-tynam-dai-gia-det-may-phai-cho-thue-mat-bang-ban-do-an-20260210144107186.htm\"><img src=\"https://icdn.dantri.com.vn/2024/03/15/garmex-quangnam-edited-1710477286626.jpeg\" /></a>(Dân trí) - Không còn đơn hàng, \"cánh chim đầu đàn\" dệt may Garmex Sài Gòn phải xoay xở bằng cách cho thuê đất làm sân pickleball và mới nhất là hợp tác bán đồ ăn để tìm nguồn thu."
     }
   ]
 }
