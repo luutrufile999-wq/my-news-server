@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Iran cảnh báo đánh chìm tàu chiến Mỹ",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/iran-canh-bao-danh-chim-tau-chien-my-20260217232710839.htm\"><img src=\"https://icdn.dantri.com.vn/2026/02/17/iran-canh-bao-danh-chim-tau-chien-my-cropped-1771345472820.jpg\" /></a>(Dân trí) - Lãnh tụ tối cao Iran cảnh báo Mỹ rằng ngay cả lực lượng quân sự mạnh nhất thế giới cũng có thể phải chịu đòn giáng chí mạng."
+    },
+    {
+      "id": 2,
       "title": "Moscow dọa đáp trả mạnh nếu phương Tây bắt giữ tàu Nga",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/moscow-doa-dap-tra-manh-neu-phuong-tay-bat-giu-tau-nga-20260217195016467.htm\"><img src=\"https://icdn.dantri.com.vn/2026/02/17/moscow-doa-dap-tra-manh-neu-phuong-tay-bat-giu-tau-nga-1771332468562.jpg\" /></a>(Dân trí) - Nga có thể triển khai hải quân để ngăn chặn các nước châu Âu tịch thu tàu và sẵn sàng phương án đáp trả."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Iran cảnh báo đóng cửa eo biển Hormuz",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/iran-canh-bao-dong-cua-eo-bien-hormuz-20260217192337751.htm\"><img src=\"https://icdn.dantri.com.vn/2026/02/17/iran-canh-bao-dong-cua-eo-bien-hormuz-1771330851500.jpg\" /></a>(Dân trí) - Tư lệnh Iran cảnh báo khả năng đóng cửa eo biển Hormuz trong bối cảnh căng thẳng leo thang với Mỹ."
-    },
-    {
-      "id": 3,
-      "title": "Tổng thống Trump gửi thông điệp cứng rắn cho Ukraine về đàm phán hòa bình",
-      "summary": "<a href=\"https://dantri.com.vn/the-gioi/tong-thong-trump-gui-thong-diep-cung-ran-cho-ukraine-ve-dam-phan-hoa-binh-20260217150203117.htm\"><img src=\"https://icdn.dantri.com.vn/2025/03/02/trumpzelenskyreuters-1-crop-1740905235409.jpeg\" /></a>(Dân trí) - Tổng thống Mỹ Donald Trump hối thúc Ukraine ngồi vào bàn đàm phán để tìm giải pháp cho cuộc xung đột với Nga."
     }
   ]
 }
