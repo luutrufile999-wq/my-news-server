@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Một người tử vong sau vụ nổ trong công ty ở TPHCM",
+      "summary": "<a href=\"https://dantri.com.vn/thoi-su/mot-nguoi-tu-vong-sau-vu-no-trong-cong-ty-o-tphcm-20260226170415289.htm\"><img src=\"https://icdn.dantri.com.vn/2026/02/26/nobinhhoitphcmxuandoan-edited-1772099949358.jpg\" /></a>(Dân trí) - Một số người đang làm việc tại công ty chế biến hải sản ở xã Long Hải (TPHCM), bất ngờ xảy ra vụ nổ khiến 1 người tử vong, hai nạn nhân khác bị thương."
+    },
+    {
+      "id": 2,
       "title": "Ô tô con \"vỡ toác\" sau cú tông xe chở rác trên đường ở Hà Nội",
       "summary": "<a href=\"https://dantri.com.vn/thoi-su/o-to-con-vo-toac-sau-cu-tong-xe-cho-rac-tren-duong-o-ha-noi-20260226165956558.htm\"><img src=\"https://icdn.dantri.com.vn/2026/02/26/va-cham-edited-cropped-1772099883561.jpg\" /></a>(Dân trí) - Lực lượng chức năng đang làm rõ vụ va chạm xảy ra giữa một ô tô con và một xe chở rác trên đường Võ Nguyên Giáp. Vụ việc khiến một người bị thương."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Công an vào cuộc vụ giáo viên bị tố bắt học sinh liếm đất vì ghế cô bẩn",
       "summary": "<a href=\"https://dantri.com.vn/giao-duc/cong-an-vao-cuoc-vu-giao-vien-bi-to-bat-hoc-sinh-liem-dat-vi-ghe-co-ban-20260226163733749.htm\"><img src=\"https://icdn.dantri.com.vn/2026/02/26/liem-datmyha3-cropped-edited-cropped-1772098551640.jpg\" /></a>(Dân trí) - UBND phường Phúc Yên đã yêu cầu cơ quan công an vào cuộc vụ giáo viên bị phụ huynh tố bắt học sinh liếm đất vì ghế cô bẩn."
-    },
-    {
-      "id": 3,
-      "title": "Hiện trạng dự án mở rộng cao tốc Cam Lộ - La Sơn và La Sơn - Hòa Liên",
-      "summary": "<a href=\"https://dantri.com.vn/thoi-su/hien-trang-du-an-mo-rong-cao-toc-cam-lo-la-son-va-la-son-hoa-lien-20260226151618785.htm\"><img src=\"https://icdn.dantri.com.vn/2026/02/26/mo-rong-cao-toc-2-lan-xe-edited-1772093037096.jpg?watermark=true\" /></a>(Dân trí) - Dự án mở rộng 2 đoạn cao tốc Cam Lộ - La Sơn và La Sơn - Hòa Liên đã thi công trở lại sau dịp nghỉ Tết Nguyên đán nhưng có sự khác biệt về nhịp độ làm việc."
     }
   ]
 }
