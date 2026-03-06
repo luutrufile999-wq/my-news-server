@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Chứng khoán thủng mốc 1.800 điểm",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/chung-khoan-thung-moc-1800-diem-20260306151317523.htm\"><img src=\"https://icdn.dantri.com.vn/2025/12/09/huukhoa-6-of-9-1-crop-cropped-1765271840379.jpg\" /></a>(Dân trí) - Áp lực bán khiến sắc đỏ áp đảo cả 2 sàn, VN-Index giảm gần 41 điểm và lùi sâu về dưới 1.800 điểm."
+    },
+    {
+      "id": 2,
       "title": "TPHCM lập quỹ đầu tư mạo hiểm 500 tỷ đồng, nhiều tỷ phú tham gia",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/tphcm-lap-quy-dau-tu-mao-hiem-500-ty-dong-nhieu-ty-phu-tham-gia-20260306104452343.htm\"><img src=\"https://icdn.dantri.com.vn/2026/03/06/thao-vuong-cropped-1772768526507.jpg\" /></a>(Dân trí) - Quỹ đầu tư này dự kiến sẽ tìm kiếm rót vốn 50-150 doanh nghiệp khởi nghiệp sáng tạo, doanh nghiệp khoa học - công nghệ cao trong giai đoạn 2026-2035. Quỹ cũng kế hoạch sẽ tăng vốn lên 5.000 tỷ đồng."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Có gì trong báo cáo mới nhất của Hội đồng Vàng thế giới?",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/co-gi-trong-bao-cao-moi-nhat-cua-hoi-dong-vang-the-gioi-20260306092931537.htm\"><img src=\"https://icdn.dantri.com.vn/2024/03/10/gia-vang-thanh-dong-6-edited-1710036865197.jpeg\" /></a>(Dân trí) - Theo WGC, thị trường vàng có nhiều yếu tố hỗ trợ nhưng rủi ro vẫn hiện hữu. Mức giá đang ở vùng cao có thể khiến một bộ phận nhà đầu tư trở nên thận trọng hơn khi tham gia thị trường."
-    },
-    {
-      "id": 3,
-      "title": "Bộ Công Thương: Đủ xăng dầu đến hết tháng, người dân không nên tích trữ",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/bo-cong-thuong-du-xang-dau-den-het-thang-nguoi-dan-khong-nen-tich-tru-20260306130716499.htm\"><img src=\"https://icdn.dantri.com.vn/2025/01/17/do-xang4-1-edited-1737082604254.jpeg\" /></a>(Dân trí) - Bộ Công Thương cho biết nguồn cung xăng dầu tháng 3 cơ bản được bảo đảm, khuyến nghị người dân bình tĩnh, tiết kiệm năng lượng và yêu cầu doanh nghiệp không găm hàng, duy trì cung ứng ổn định."
     }
   ]
 }
