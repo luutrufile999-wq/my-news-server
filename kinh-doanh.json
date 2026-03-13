@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Giá vé máy bay tăng vì chiến sự: Đặt vé sao cho đỡ đắt?",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gia-ve-may-bay-tang-vi-chien-su-dat-ve-sao-cho-do-dat-20260313090455333.htm\"><img src=\"https://icdn.dantri.com.vn/2026/03/13/rising-oil-prices-from-middle-east-conflict-may-push-airline-fuel-costs-and-airfares-higher-cropped-1773366571090.jpg\" /></a>(Dân trí) - Xung đột Trung Đông đẩy giá nhiên liệu bay lên đỉnh 4 năm, đe dọa tăng giá vé tới 70% tại Việt Nam. Đâu là chiến lược gom vé thông minh cho hành khách lúc này?"
+    },
+    {
+      "id": 2,
       "title": "Giá vàng miếng giảm 1,5 triệu đồng/lượng",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gia-vang-mieng-giam-15-trieu-dongluong-20260313090032194.htm\"><img src=\"https://icdn.dantri.com.vn/2024/07/19/mua-vang-tai-ngan-hangthanh-dong29-1-edited-1721386907497.jpeg\" /></a>(Dân trí) - Vàng giảm giá song chuyên gia cho rằng đà điều chỉnh hiện tại chủ yếu do hoạt động chốt lời ngắn hạn và chưa làm thay đổi xu hướng dài hạn của kim loại quý."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Điều mất mùa vì thời tiết, nông dân hối hả tìm giống mới cứu vãn",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/dieu-mat-mua-vi-thoi-tiet-nong-dan-hoi-ha-tim-giong-moi-cuu-van-20260313094920234.htm\"><img src=\"https://icdn.dantri.com.vn/2026/03/13/thuc-te-binh-phuoc-2026-2-cropped-1773369957578.jpg\" /></a>(Dân trí) - Dù giá điều đầu vụ đạt 35.000-36.000 đồng/kg, cao hơn cùng kỳ năm ngoái, nhưng thời tiết thất thường làm giảm mạnh năng suất khiến người trồng vẫn thấp thỏm bài toán lợi nhuận."
-    },
-    {
-      "id": 3,
-      "title": "Be và Grab hỗ trợ phí tài xế, xe điện giảm giá",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/be-va-grab-ho-tro-phi-tai-xe-xe-dien-giam-gia-20260311094236892.htm\"><img src=\"https://icdn.dantri.com.vn/2026/03/06/gia-xang-dau-tang-tu-7-se-duoc-dieu-chinh-ngay-khong-cho-ky-dieu-hanh-1772810161457.jpg\" /></a>(Dân trí) - Loạt chính sách được đưa ra để hỗ trợ bình ổn giá. Về phía doanh nghiệp, các bên cũng đồng hành cùng đối tác tài xế bằng các chương trình tăng thưởng, hỗ trợ phí nhiên liệu."
     }
   ]
 }
