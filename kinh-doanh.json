@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Bão giá dầu thử thách giới đầu tư, AI nổi lên thành cứu cánh",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/bao-gia-dau-thu-thach-gioi-dau-tu-ai-noi-len-thanh-cuu-canh-20260320114904684.htm\"><img src=\"https://icdn.dantri.com.vn/2026/03/20/ai-for-stock-trading-photo-illustration-image-person-with-robot-head-analyzing-financial-data-on-large-computer-monitor-array-cropped-1773981275254.jpg\" /></a>(Dân trí) - Khi xung đột Trung Đông kích hoạt cú sốc năng lượng, giới đầu tư phải nhờ cậy AI để xử lý dữ liệu. Nghịch lý là giá dầu tăng lại đang đe dọa trực tiếp các doanh nghiệp công nghệ tại châu Á."
+    },
+    {
+      "id": 2,
       "title": "Giá vàng phục hồi, chuyên gia tự tin vào đà tăng dài hạn",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gia-vang-phuc-hoi-chuyen-gia-tu-tin-vao-da-tang-dai-han-20260320152439975.htm\"><img src=\"https://icdn.dantri.com.vn/2024/07/19/gia-vang-thanh-dong-35-edited-1721385536423.jpeg\" /></a>(Dân trí) - Kết thúc phiên 20/3, giá vàng SJC quay đầu tăng 1,9 triệu đồng/lượng theo đà phục hồi của thế giới. Bất chấp áp lực ngắn hạn, giới chuyên gia nhận định triển vọng của vàng vẫn rất tích cực."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Thủ tướng yêu cầu đẩy nhanh bán xăng E10 ngay trong tháng 4",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/thu-tuong-yeu-cau-day-nhanh-ban-xang-e10-ngay-trong-thang-4-20260320155227843.htm\"><img src=\"https://icdn.dantri.com.vn/2026/02/08/tu-thang-6-bat-buoc-dung-xang-e5-e10-sap-sua-quy-chuan-cua-hang-xang-dau-1770527034086.jpg\" /></a>(Dân trí) - Thủ tướng yêu cầu đẩy nhanh lộ trình xăng E10 ngay trong tháng 4, nhằm giảm khoảng 10% tiêu thụ xăng khoáng, thúc đẩy chuyển dịch năng lượng và sử dụng nhiên liệu sinh học."
-    },
-    {
-      "id": 3,
-      "title": "Chứng khoán giảm hơn 51 điểm, tỷ phú Phạm Nhật Vượng mất gần 1 tỷ USD",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/chung-khoan-giam-hon-51-diem-ty-phu-pham-nhat-vuong-mat-gan-1-ty-usd-20260320151917236.htm\"><img src=\"https://icdn.dantri.com.vn/2026/03/20/vingroup-cua-ty-phu-vuong-muon-tang-von-edited-cropped-cropped-1773994630496.jpg\" /></a>(Dân trí) - Cổ phiếu Vingroup gây áp lực mạnh nhất lên thị trường chứng khoán hôm nay. Tài sản của tỷ phú Phạm Nhật Vượng giảm 907 triệu USD."
     }
   ]
 }
