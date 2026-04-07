@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Giá vàng chững lại dưới 4.700 USD, giới chuyên gia nêu kịch bản bất ngờ",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gia-vang-chung-lai-duoi-4700-usd-gioi-chuyen-gia-neu-kich-ban-bat-ngo-20260407102417123.htm\"><img src=\"https://icdn.dantri.com.vn/2026/04/07/gettyimages-2239934987-e1772570958911-1775530580813.webp\" /></a>(Dân trí) - Giá vàng đang chững lại quanh mốc 4.690 USD/ounce. Giới chuyên gia phố Wall dự báo kịch bản bất ngờ cho khoản đầu tư 25.000 USD vào cuối năm nay, hé lộ thời điểm vàng thực sự tỏa sáng."
+    },
+    {
+      "id": 2,
       "title": "Hà Nội nắng nóng sớm có khi vượt 38 độ C, EVN phát đi thông báo quan trọng",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/ha-noi-nang-nong-som-co-khi-vuot-38-do-c-evn-phat-di-thong-bao-quan-trong-20260407104805099.htm\"><img src=\"https://icdn.dantri.com.vn/2025/09/08/hoa-don-tien-dien-khap-noi-tang-vot-nguoi-dan-bat-ngua-cropped-1757314652082.jpg\" /></a>(Dân trí) - Nắng nóng đến sớm, nhiều thời điểm vượt 38 độ C khiến nhu cầu điện tại Hà Nội có nguy cơ tăng mạnh. EVN khuyến cáo người dân tiết kiệm điện, hạn chế dùng thiết bị công suất lớn giờ cao điểm."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "3 công ty vừa bị phạt tiền",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/3-cong-ty-vua-bi-phat-tien-20260407102247467.htm\"><img src=\"https://icdn.dantri.com.vn/2025/10/20/minh-hoa-ttckshutterstock-crop-cropped-1760955921191.jpg\" /></a>(Dân trí) - Ủy ban Chứng khoán Nhà nước (UBCKNN) vừa ban hành loạt quyết định xử phạt hành chính đối với các doanh nghiệp do vi phạm quy định trong lĩnh vực chứng khoán với tổng số tiền phạt gần 300 triệu đồng."
-    },
-    {
-      "id": 3,
-      "title": "Công ty mua lợn của Cường Phát trúng loạt gói thầu suất ăn cho trường học",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/cong-ty-mua-lon-cua-cuong-phat-trung-loat-goi-thau-suat-an-cho-truong-hoc-20260407103930446.htm\"><img src=\"https://icdn.dantri.com.vn/2026/04/07/ho-so-cong-ty-mua-lon-cua-cuong-phat-ban-cho-26-truong-cong-lap-1775523055193.jpg\" /></a>(Dân trí) - Công ty cổ phần Dịch vụ suất ăn công nghiệp Hà Nội trúng 148/148 gói thầu đã tham gia, chủ yếu là cung cấp suất ăn tại các trường học ở Hà Nội và phía Bắc."
     }
   ]
 }
