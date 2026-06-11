@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Mexico 1-0 Nam Phi (hết hiệp 1): Quá khó cho đội khách",
+      "summary": "<a href=\"https://dantri.com.vn/the-thao/mexico-1-0-nam-phi-het-hiep-1-qua-kho-cho-doi-khach-20260612012058815.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/12/mexico-1-0-nam-phi-hiep-1-ban-mo-ty-so-som-cropped-1781206165370.jpg\" /></a>(Dân trí) - Mexico nhập cuộc đầy hứng khởi và sớm có bàn mở tỷ số. Trong khi đó, Nam Phi gặp nhiều khó khăn, gần như không tạo được cơ hội đáng chú ý nào về phía khung thành đội chủ nhà trong hiệp một."
+    },
+    {
+      "id": 2,
       "title": "CLB Công an TPHCM gặp Ninh Bình ở chung kết Cúp Quốc gia",
       "summary": "<a href=\"https://dantri.com.vn/the-thao/clb-cong-an-tphcm-gap-ninh-binh-o-chung-ket-cup-quoc-gia-20260611203516872.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/11/ninhbinhdmq-1781185323048.jpg\" /></a>(Dân trí) - CLB Công an (CA) TPHCM thắng Nam Định 4-2 trên sân đối phương, còn CLB Ninh Bình thắng Thể Công Viettel 4-1 trên sân nhà để tiến vào chung kết Cúp Quốc gia năm nay."
     },
     {
-      "id": 2,
-      "title": "Khai mạc World Cup 2026: Bùng cháy trước giờ G",
-      "summary": "<a href=\"https://dantri.com.vn/the-thao/khai-mac-world-cup-2026-bung-chay-truoc-gio-g-20260611185445493.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/11/khai-mac-world-cup-2026-dem-nguoc-truoc-gio-g-cropped-1781195220498.jpg\" /></a>(Dân trí) - CĐV bắt đầu vào sân Azteca để theo dõi lễ khai mạc và trận khai mạc World Cup 2026. Sự kiện sẽ bắt đầu vào lúc 0h30 ngày 12/6. Cả thế giới đang đếm ngược."
-    },
-    {
       "id": 3,
-      "title": "Siêu máy tính chỉ ra ứng viên chiến thắng ở trận Hàn Quốc gặp CH Séc",
-      "summary": "<a href=\"https://dantri.com.vn/the-thao/sieu-may-tinh-chi-ra-ung-vien-chien-thang-o-tran-han-quoc-gap-ch-sec-20260611071045196.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/11/son-heung-min-cropped-1781136457325.jpg\" /></a>(Dân trí) - Trước cuộc đối đầu tại bảng A World Cup 2026, siêu máy tính Opta đã tính toán xác suất chiến thắng của Hàn Quốc và CH Séc, qua đó đưa ra dự báo đáng chú ý về kết quả trận đấu."
+      "title": "Lễ khai mạc World Cup 2026: Đại tiệc nghệ thuật và bóng đá",
+      "summary": "<a href=\"https://dantri.com.vn/the-thao/le-khai-mac-world-cup-2026-dai-tiec-nghe-thuat-va-bong-da-20260611185445493.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/12/nghe-si-1-2797-1781200407-1781200630722.jpg\" /></a>(Dân trí) - Lễ khai mạc World Cup 2026 diễn ra trên sân Azteca mang đậm sắc màu của Mexico và Mỹ La Tinh. Nước chủ nhà muốn gửi gắm thông điệp sẵn sàng chào đón người hâm mộ khắp thế giới."
     }
   ]
 }
