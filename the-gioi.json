@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Quan chức Mỹ - Iran cùng tới Thụy Sĩ",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/quan-chuc-my-iran-cung-toi-thuy-si-20260620123433665.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/20/my-co-the-sap-dam-phan-hoa-binh-voi-iran-xem-xet-thoa-thuan-15-diem-1774404092453-1781933409720.jpg\" /></a>(Dân trí) - Các quan chức Mỹ và Iran được cho là đang tìm cách nối lại đàm phán sau khi kế hoạch ban đầu bị tạm hoãn."
+    },
+    {
+      "id": 2,
       "title": "Chiến sự Ukraine 20/6: Rộ tin Kiev đã thất thủ ở Liman",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/chien-su-ukraine-206-ro-tin-kiev-da-that-thu-o-liman-20260620113241435.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/20/moscow-main1781770645910hpmain-1781924235725.jpg\" /></a>(Dân trí) - Thành phố Liman được cho là đã thất thủ, Ukraine đang cấp tốc rút lui về phía tây. Đồng thời, quân đội Nga chiếm được khoảng 90% diện tích Konstantinovka."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Mỹ - Qatar sẽ \"mở khóa\" 6 tỷ USD cho Iran?",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/my-qatar-se-mo-khoa-6-ty-usd-cho-iran-20260620111749766.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/20/my-qatar-se-mo-khoa-6-ty-usd-cho-iran-cropped-1781928908896.jpg\" /></a>(Dân trí) - Truyền thông Mỹ đưa tin, nước này và Qatar dường như có kế hoạch cho phép Iran tiếp cận 6 tỷ USD tài sản bị phong tỏa để mua hàng hóa nhân đạo."
-    },
-    {
-      "id": 3,
-      "title": "Lý do Iran hoãn tiến trình đàm phán với Mỹ trước giờ G",
-      "summary": "<a href=\"https://dantri.com.vn/the-gioi/ly-do-iran-hoan-tien-trinh-dam-phan-voi-my-truoc-gio-g-20260620102308990.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/20/tong-thong-my-donald-trump-ky-thoa-thuan-cropped-1781928159596.jpg\" /></a>(Dân trí) - Iran đã hoãn các cuộc hội đàm cấp kỹ thuật với Mỹ, vốn được lên lịch vào ngày 19/6 tại Thụy Sĩ."
     }
   ]
 }
