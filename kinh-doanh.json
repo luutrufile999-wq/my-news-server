@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Không để lợi dụng nhập ô tô biếu tặng để trục lợi",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/khong-de-loi-dung-nhap-o-to-bieu-tang-de-truc-loi-20260622225648178.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/22/pho-thu-tuong-thuong-truc-nhap-khau-o-to-dien-qua-bieu-tang-khong-vi-quan-ly-kho-ma-cam-cropped-1782142889068.jpg\" /></a>(Dân trí) - Phó Thủ tướng Thường trực Chính phủ Phạm Gia Túc nhấn mạnh yêu cầu bảo đảm công bằng, không để lợi dụng hình thức quà biếu, quà tặng để trục lợi chính sách."
+    },
+    {
+      "id": 2,
       "title": "Chính thức nới trần vốn ngắn hạn cho vay trung dài hạn từ 1/7",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/chinh-thuc-noi-tran-von-ngan-han-cho-vay-trung-dai-han-tu-17-20260622212738762.htm\"><img src=\"https://icdn.dantri.com.vn/2023/04/21/vpbank-giao-dich35-edited-1682014495857.jpeg\" /></a>(Dân trí) - Tỷ lệ tối đa nguồn vốn ngắn hạn được ngân hàng sử dụng để cho vay trung, dài hạn được nới từ 30% lên 40%."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Làn sóng AI tạo cơ hội \"đổi đời\" cho thợ điện, thợ ống nước",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/lan-song-ai-tao-co-hoi-doi-doi-cho-tho-dien-tho-ong-nuoc-20260622200418941.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/22/p-1-91529563-nvidia-ceo-jensen-huang-cropped-1782132919850.jpg\" /></a>(Dân trí) - Trong khi nhiều người lo AI lấy mất việc làm, CEO Nvidia Jensen Huang lại cho rằng làn sóng AI đang mở ra nhu cầu khổng lồ đối với thợ điện, thợ ống nước, thợ hàn và lao động kỹ thuật."
-    },
-    {
-      "id": 3,
-      "title": "Tác giả \"Cha giàu cha nghèo\" tiết lộ thời điểm mua vàng, bạc, bitcoin",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/tac-gia-cha-giau-cha-ngheo-tiet-lo-thoi-diem-mua-vang-bac-bitcoin-20260622072514823.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/22/gold-cropped-1782086982873.jpg\" /></a>(Dân trí) - Sự sụt giảm mạnh của giá vàng, bạc và bitcoin khiến nhiều nhà đầu tư hoang mang. Tuy nhiên, tác giả cuốn \"Cha giàu cha nghèo\" lại xem đây là cơ hội lớn và vừa tiết lộ chiến lược giải ngân mới."
     }
   ]
 }
