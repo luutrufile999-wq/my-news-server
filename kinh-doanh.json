@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Giá vàng trong nước đắt hơn thế giới 18,3 triệu đồng/lượng",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gia-vang-trong-nuoc-dat-hon-the-gioi-183-trieu-dongluong-20260701012205080.htm\"><img src=\"https://icdn.dantri.com.vn/2025/08/05/gia-vang-manh-quan-14-crop-edited-1754330788969.jpg?watermark=true\" /></a>(Dân trí) - Giá vàng trong nước biến động mạnh trong phiên cuối tháng khi có thời điểm giảm tới 2 triệu đồng/lượng rồi bật tăng trở lại.  Vàng miếng SJC vẫn cao hơn giá thế giới quy đổi khoảng 18,3 triệu đồng."
+    },
+    {
+      "id": 2,
       "title": "Giá xăng tăng hơn 1.400 đồng/lít từ 0h ngày 1/7",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gia-xang-tang-hon-1400-donglit-tu-0h-ngay-17-20260630225435411.htm\"><img src=\"https://icdn.dantri.com.vn/2026/03/11/xang-dau-1manh-quanpng-1773212334245.png\" /></a>(Dân trí) - Từ 0h ngày 1/7, giá xăng E5 RON 92 tăng 1.430 đồng/lít, xăng E10 RON 95 tăng 1.290 đồng/lít."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Chính thức giảm thuế bảo vệ môi trường, VAT với xăng dầu đến 30/9",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/chinh-thuc-giam-thue-bao-ve-moi-truong-vat-voi-xang-dau-den-309-20260630214536768.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/30/do-xang40-crop-crop-1723594930178-1780046303954-1782830667267.jpg\" /></a>(Dân trí) - Chính phủ chốt kéo dài miễn thuế bảo vệ môi trường, giá trị gia tăng (VAT), nhập khẩu ưu đãi với xăng dầu thêm 3 tháng, đến hết ngày 30/9."
-    },
-    {
-      "id": 3,
-      "title": "Đồng yên rơi xuống đáy 40 năm, chuyện gì đang xảy ra với kinh tế Nhật Bản?",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/dong-yen-roi-xuong-day-40-nam-chuyen-gi-dang-xay-ra-voi-kinh-te-nhat-ban-20260630184219715.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/30/dong-yen-roi-xuong-day-40-nam-chuyen-gi-dang-xay-ra-voi-kinh-te-nhat-ban-cropped-1782819073388.jpg\" /></a>(Dân trí) - Đồng yên lao xuống mức thấp nhất kể từ năm 1986, đẩy Nhật Bản vào thế khó khi thị trường ngày càng tin rằng chính phủ sẽ sớm phải tung biện pháp can thiệp để ngăn đà mất giá của đồng nội tệ."
     }
   ]
 }
