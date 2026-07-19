@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Thiêng liêng, nghĩa tình tiếng gọi “vợ liệt sỹ”",
+      "summary": "<a href=\"https://dantri.com.vn/tam-diem/thieng-lieng-nghia-tinh-tieng-goi-vo-liet-sy-20260719185240569.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/19/vo-liet-sy-quen-1783741258792-1784461745628.jpg\" /></a>(Dân trí) - Có những người mẹ chờ con đến bạc tóc. Có những người vợ chờ chồng đến cuối đời. Có những người như bà Lệ, chưa kịp thành vợ nhưng đã sống trọn một đời vợ chồng."
+    },
+    {
+      "id": 2,
       "title": "Tây Ban Nha - Argentina (2h ngày 20/7): Messi chờ thời khắc lịch sử",
       "summary": "<a href=\"https://dantri.com.vn/the-thao/tay-ban-nha-argentina-2h-ngay-207-messi-cho-thoi-khac-lich-su-20260719234209544.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/16/messi-cropped-1784141731585.jpg\" /></a>(Dân trí) - Argentina đối đầu Tây Ban Nha trên sân New York New Jersey (Mỹ) với mục tiêu bảo vệ chức vô địch World Cup. Đây là trận đấu Messi được kỳ vọng tiếp tục làm nên lịch sử."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Tri ân hơn 500 cựu thanh niên xung phong tại miền đất lửa Quảng Trị",
       "summary": "<a href=\"https://dantri.com.vn/tam-long-nhan-ai/tri-an-hon-500-cuu-thanh-nien-xung-phong-tai-mien-dat-lua-quang-tri-20260719215021489.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/19/cuu-thanh-nien-xung-phong-1784472335128.jpg\" /></a>(Dân trí) - Ngày 19/7, báo Dân trí phối hợp cùng các đơn vị đồng hành tổ chức chương trình khám sức khoẻ, tặng quà cho hơn 500 cựu thanh niên xung phong, thương binh tại 2 xã Sen Ngư và Vĩnh Hoàng tỉnh Quảng Trị."
-    },
-    {
-      "id": 3,
-      "title": "Miền Bắc tiếp tục mưa dông nhiều ngày tới",
-      "summary": "<a href=\"https://dantri.com.vn/thoi-tiet/mien-bac-tiep-tuc-mua-dong-nhieu-ngay-toi-20260719202816074.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/19/lu-quet-cropped-1784467572277.jpg\" /></a>(Dân trí) - Mưa to ở vùng núi Bắc Bộ còn kéo dài đến hết đêm 20/7. Cơ quan khí tượng cảnh báo nguy cơ xảy ra lũ quét và sạt lở đất trên sườn dốc tại nhiều xã, phường ở Lai Châu, Lào Cai, Tuyên Quang."
     }
   ]
 }
