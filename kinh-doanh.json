@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Gallup: Người lao động Việt Nam ít căng thẳng nhất Đông Nam Á",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gallup-nguoi-lao-dong-viet-nam-it-cang-thang-nhat-dong-nam-a-20260722073242854.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/22/nguoi-lao-dong-hanh-phuc-la-nen-tang-cho-su-ben-vung-lau-dai-cua-acecook-cropped-1784679853486.jpg\" /></a>(Dân trí) - Chỉ 13% người lao động Việt Nam cảm thấy căng thẳng hằng ngày - thấp nhất Đông Nam Á. Nhiều chỉ số về chất lượng cuộc sống và sức khỏe tinh thần cũng vượt mức trung bình khu vực."
+    },
+    {
+      "id": 2,
       "title": "Tự ý nâng giá xăng E10, doanh nghiệp bị phạt gấp 16 lần số tiền thu lời",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/tu-y-nang-gia-xang-e10-doanh-nghiep-bi-phat-gap-16-lan-so-tien-thu-loi-20260721200426576.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/21/nang-gia-ban-xang-e10nghe-an-edited-1784638732362.jpg\" /></a>(Dân trí) - Thời điểm lực lượng chức năng kiểm tra, doanh nghiệp kinh doanh xăng dầu niêm yết giá bán và bán xăng E10 RON95 cao hơn giá công bố của đơn vị phân phối."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Giá vàng trong nước, thế giới đồng loạt đi lên",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gia-vang-trong-nuoc-the-gioi-dong-loat-di-len-20260722002838162.htm\"><img src=\"https://icdn.dantri.com.vn/2026/04/10/vangmq2-edited-crop-cropped-1775757782926.jpg\" /></a>(Dân trí) - Giá vàng trong nước và thế giới đồng loạt đi lên song các chuyên gia vẫn đưa ra quan điểm trái chiều về triển vọng thị trường."
-    },
-    {
-      "id": 3,
-      "title": "Ngân hàng Hà Lan rót 384 tỷ đồng vào trung tâm nông sản lớn nhất Tây Nguyên",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/ngan-hang-ha-lan-rot-384-ty-dong-vao-trung-tam-nong-san-lon-nhat-tay-nguyen-20260716180628363.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/21/nha-may-1784608473093.jpg\" /></a>(Dân trí) - Nhà máy có tổng vốn 500 tỷ đồng, là mắt xích quan trọng trong chiến lược phát triển vùng nguyên liệu, được định hướng trở thành trung tâm chế biến nông sản hiện đại quy mô lớn của khu vực Tây Nguyên."
     }
   ]
 }
