@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Một thương hiệu ghế massage bị phạt vì tự nhận \"số 1 Việt Nam\"",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/mot-thuong-hieu-ghe-massage-bi-phat-vi-tu-nhan-so-1-viet-nam-20260722170929122.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/22/ghe-massage-1784714527477.jpg\" /></a>(Dân trí) - Công ty TNHH Thương hiệu Vàng Washima bị phạt 200 triệu đồng do đưa thông tin \"Thương hiệu ghế massage số 1 Việt Nam\" chưa có căn cứ, gây nhầm lẫn cho khách hàng."
+    },
+    {
+      "id": 2,
       "title": "Loạt doanh nghiệp không bán kim cương nhưng cổ phiếu vẫn giảm sàn",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/loat-doanh-nghiep-khong-ban-kim-cuong-nhung-co-phieu-van-giam-san-20260722153636803.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/22/screenshot-2026-07-22-153339-cropped-1784709233034.jpg\" /></a>(Dân trí) - Áp lực bán lan rộng khiến VN-Index chốt phiên 22/7 mất hơn 62 điểm, lùi xuống dưới 1.700 điểm. Nhiều cổ phiếu giảm sàn. VIC là mã tác động tiêu cực lớn nhất lên chỉ số."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Nga bán ròng 44 tấn vàng trong nửa đầu năm, dự trữ thấp nhất từ 2020",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/nga-ban-rong-44-tan-vang-trong-nua-dau-nam-du-tru-thap-nhat-tu-2020-20260722153505231.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/22/russia-gold-cropped-1784708331976.jpg\" /></a>(Dân trí) - Sau nhiều năm liên tục gom vàng, Ngân hàng Trung ương Nga đã bán khoảng 44 tấn trong nửa đầu năm nay, đưa lượng dự trữ xuống mức thấp nhất kể từ năm 2020 giữa lúc giá vàng biến động mạnh."
-    },
-    {
-      "id": 3,
-      "title": "\"Phố kim cương\" TPHCM ra sao sau hàng loạt động thái mới?",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/pho-kim-cuong-tphcm-ra-sao-sau-hang-loat-dong-thai-moi-20260722144117067.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/22/z8069396162110f6aa79033532f07512083b8e33d4fde7-cropped-1784704634931.jpg?watermark=true\" /></a>(Dân trí) - Một số cửa hàng mở cửa. Một số cửa hàng vẫn đóng. Khung cảnh tại \"phố kim cương\" ở TPHCM vẫn có nhưng diễn biến trái chiều. Diễn biến tại các cửa hàng PNJ gây chú ý."
     }
   ]
 }
