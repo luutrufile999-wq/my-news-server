@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Iran gửi thông điệp trực tiếp tới Tổng thống Mỹ",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/iran-gui-thong-diep-truc-tiep-toi-tong-thong-my-20260807222644011.htm\"><img src=\"https://icdn.dantri.com.vn/2026/05/03/trump1-1777763383083.jpg\" /></a>(Dân trí) - Iran kêu gọi Tổng thống Mỹ Donald Trump kiềm chế “ngoại giao kiểu sân khấu” vì cách tiếp cận này sẽ không hiệu quả với Tehran."
+    },
+    {
+      "id": 2,
       "title": "Lộ diện hướng tiến công chủ yếu của Nga ở Ukraine trong mùa hè",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/lo-dien-huong-tien-cong-chu-yeu-cua-nga-o-ukraine-trong-mua-he-20260807124244474.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/16/binh-si-ukrainerybar-1784173557072.jpg\" /></a>(Dân trí) - Cuộc tấn công tổng lực của Nga vào phần còn lại ở tỉnh Donetsk do Ukraine kiểm soát có thể sẽ diễn ra trong vài ngày tới. Tuy nhiên, họ không phải đột phá bằng mọi giá mà “đánh chắc, tiến chắc”."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Ông Trump ẩn ý về ứng viên kế nhiệm tiềm năng?",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/ong-trump-an-y-ve-ung-vien-ke-nhiem-tiem-nang-20260807203424260.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/07/unnamed-1-1786108954583.jpg\" /></a>(Dân trí) - Tổng thống Mỹ Donald Trump được cho là đã nói với các nhà tài trợ của đảng Cộng hòa rằng nên ủng hộ \"phó tướng\" JD Vance, bất chấp việc vẫn giữ thái độ mơ hồ trước công chúng về người kế nhiệm."
-    },
-    {
-      "id": 3,
-      "title": "Nga phóng “mưa tên lửa đạn đạo”, xuyên thủng lưới phòng không Ukraine",
-      "summary": "<a href=\"https://dantri.com.vn/the-gioi/nga-phong-mua-ten-lua-dan-dao-xuyen-thung-luoi-phong-khong-ukraine-20260807200151746.htm\"><img src=\"https://icdn.dantri.com.vn/2026/05/27/khoiboclentrantapkichngavaokiev245reuters-1-1779857444677.jpg\" /></a>(Dân trí) - Tên lửa đạn đạo của Nga, mối đe dọa lớn nhất đối với các thành phố của Ukraine, có thể giáng xuống bất kỳ lúc nào mà gần như không có cảnh báo trước."
     }
   ]
 }
