@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Nga phóng tên lửa đạn đạo khắp Ukraine, nổ lớn rung chuyển Kiev",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/nga-phong-ten-lua-dan-dao-khap-ukraine-no-lon-rung-chuyen-kiev-20260811063537926.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/11/nga-1786404763287.png\" /></a>(Dân trí) - Nga tiếp tục tiến hành các cuộc tấn công bằng tên lửa đạn đạo nhằm vào các thành phố tại Ukraine, bao gồm thủ đô Kiev."
+    },
+    {
+      "id": 2,
       "title": "Tổng thống Trump đề nghị Iran bồi thường, cảnh báo leo thang xung đột",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/tong-thong-trump-de-nghi-iran-boi-thuong-canh-bao-leo-thang-xung-dot-20260811044918699.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/07/tong-thong-my-donald-trumpreuters11zon-1783377699005.jpg\" /></a>(Dân trí) - Tổng thống Mỹ Donald Trump yêu cầu Iran phải bồi thường cho những người đã thiệt mạng trong các cuộc xung đột trước đây. Ông cũng tuyên bố sẵn sàng leo thang quân sự nếu cần thiết."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Lãnh tụ Tối cao Iran ra sắc lệnh cải tổ quân đội",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/lanh-tu-toi-cao-iran-ra-sac-lenh-cai-to-quan-doi-20260811052530482.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/09/lanh-tu-iran-mojtaba-khameneiafp11zon-1783599578433.jpg\" /></a>(Dân trí) - Lãnh tụ Tối cao Iran Mojtaba Khamenei bổ nhiệm cùng lúc 6 chỉ huy quân sự cấp cao nhằm chính thức hóa một phần cấu trúc lãnh đạo thời chiến vốn hoạt động trong nhiều tháng không qua sắc lệnh."
-    },
-    {
-      "id": 3,
-      "title": "Ukraine dồn dập khai hỏa, tấn công hàng loạt mục tiêu trong lãnh thổ Nga",
-      "summary": "<a href=\"https://dantri.com.vn/the-gioi/ukraine-don-dap-khai-hoa-tan-cong-hang-loat-muc-tieu-trong-lanh-tho-nga-20260810221535359.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/10/chay-donetsk-cropped-1786374767052.jpg\" /></a>(Dân trí) - Ukraine tiếp tục triển khai hàng trăm UAV tấn công các mục tiêu trong lãnh thổ Nga nhằm gây sức ép với Moscow."
     }
   ]
 }
