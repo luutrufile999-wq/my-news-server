@@ -2,8 +2,18 @@
   "articles": [
     {
       "id": 1,
-      "title": "Lỗi",
-      "summary": "Không thể tải tin tức."
+      "title": "Giá USD tự do lao dốc, xuống thấp hơn mức niêm yết tại ngân hàng",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gia-usd-tu-do-lao-doc-xuong-thap-hon-muc-niem-yet-tai-ngan-hang-20260814130434446.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/08/vnd-2-1786181771083.jpg\" /></a>(Dân trí) - Dòng vốn ngoại tệ chảy vào tiếp tục dồi dào, nhưng giá USD tại Việt Nam chịu sức ép từ diễn biến thuế quan, chính sách tiền tệ của Fed."
+    },
+    {
+      "id": 2,
+      "title": "Tăng “lá chắn” cho lao động đi làm việc ở nước ngoài",
+      "summary": "<a href=\"https://dantri.com.vn/lao-dong-viec-lam/tang-la-chan-cho-lao-dong-di-lam-viec-o-nuoc-ngoai-20260814114838644.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/14/ba-nguyen-thi-hoang-lanbao-ky-1786677993471.jpg?watermark=true\" /></a>(Dân trí) - Cán bộ cơ sở tại Cần Thơ được tập huấn kỹ năng tư vấn, nhận diện rủi ro và hướng dẫn người dân tiếp cận thông tin chính thống khi đi làm việc ở nước ngoài theo hợp đồng."
+    },
+    {
+      "id": 3,
+      "title": "Bộ trưởng Nguyễn Tiến Hải nhắc những đêm sáng đèn ở Bộ Nội vụ",
+      "summary": "<a href=\"https://dantri.com.vn/noi-vu/bo-truong-nguyen-tien-hai-nhac-nhung-dem-sang-den-o-bo-noi-vu-20260814130457352.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/14/1786671489638812663949576521283481266394957652128342581d66079c1f338747c428e968a4653-cropped-1786687425563.jpg\" /></a>(Dân trí) - Nhắc lại quá trình tham mưu cho Đảng, Nhà nước về sắp xếp, tổ chức bộ máy, Bộ trưởng Bộ Nội vụ Nguyễn Tiến Hải đánh giá cao tinh thần làm việc trách nhiệm của cán bộ, công chức qua những đêm sáng đèn."
     }
   ]
 }
