@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Lỗi",
-      "summary": "Lỗi khi cào dữ liệu SJC: Could not find 'SJC 1L, 10L' row in any table on the page."
+      "summary": "Lỗi khi cào dữ liệu SJC: HTTPSConnectionPool(host='webgia.com', port=443): Max retries exceeded with url: /gia-vang/sjc/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='webgia.com', port=443) at 0x7f4675fbb2e0>, 'Connection to webgia.com timed out. (connect timeout=None)'))"
     }
   ]
 }
