@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Chiếc áo, cái quần phát thải 1 tỷ tấn carbon, thời trang có \"chết\"?",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/chiec-ao-cai-quan-phat-thai-1-ty-tan-carbon-thoi-trang-co-chet-20260907092614135.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/07/fashion-emmission-cropped-1788747790112.jpg\" /></a>(Dân trí) - Dù làn sóng cam kết xanh bùng nổ, phát thải ngành thời trang vẫn tăng gần 14% sau 2 năm. Nguy cơ bốc hơi 34% lợi nhuận vào năm 2030 đang buộc toàn chuỗi cung ứng phải định hình lại cuộc chơi carbon."
+    },
+    {
+      "id": 2,
       "title": "Đề xuất chi tiết việc giảm 30% thuế cho hộ kinh doanh, doanh nghiệp",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/de-xuat-chi-tiet-viec-giam-30-thue-cho-ho-kinh-doanh-doanh-nghiep-20260907211143863.htm\"><img src=\"https://icdn.dantri.com.vn/2022/04/14/giao-dich-ngan-hang-39tien-tuan-1649922822553.jpg\" /></a>(Dân trí) - Bộ Tài chính đề xuất giảm 30% thuế cho hộ kinh doanh có doanh thu không quá 10 tỷ đồng trong năm 2026 và 2027."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Đồng yên Nhật lên mức cao nhất trong 6 tháng",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/dong-yen-nhat-len-muc-cao-nhat-trong-6-thang-20260907195651007.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/07/yen-nhat-cropped-1788785631404.jpg\" /></a>(Dân trí) - Đồng yên Nhật đã tăng mạnh so với đồng USD trong phiên thứ hai (7/9), vươn lên vùng 154 yên/USD, trong khi đầu ngày đồng yên vẫn ở vùng giữa 155."
-    },
-    {
-      "id": 3,
-      "title": "Starbucks có cửa hàng đầu tiên dành cho người khiếm thính tại Việt Nam",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/starbucks-co-cua-hang-dau-tien-danh-cho-nguoi-khiem-thinh-tai-viet-nam-20260907184119160.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/07/sb2-cropped-1788781194679.jpg\" /></a>(Dân trí) - Thời gian đầu dự kiến có khoảng 50% nhân viên khiếm thính làm việc tại cửa hàng Starbucks này."
     }
   ]
 }
