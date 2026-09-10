@@ -2,8 +2,18 @@
   "articles": [
     {
       "id": 1,
-      "title": "Lỗi",
-      "summary": "Không thể tải tin tức."
+      "title": "Đề xuất của Tổng Bí thư, Chủ tịch nước tại Hội nghị quốc tế vũ trụ ở Pháp",
+      "summary": "<a href=\"https://dantri.com.vn/thoi-su/de-xuat-cua-tong-bi-thu-chu-tich-nuoc-tai-hoi-nghi-quoc-te-vu-tru-o-phap-20260910205853762.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/10/tong-bi-thu-chu-tich-nuoc-to-lam-edited-1789048442292.jpg\" /></a>(Dân trí) - Tổng Bí thư, Chủ tịch nước Tô Lâm đề xuất Mạng lưới “Không gian vì Phát triển và Khả năng chống chịu”, đồng thời truyền đi thông điệp không gian phải vì hòa bình và vì con người."
+    },
+    {
+      "id": 2,
+      "title": "Giá dầu chạm mốc 105 USD khi căng thẳng Trung Đông leo thang",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gia-dau-cham-moc-105-usd-khi-cang-thang-trung-dong-leo-thang-20260910203734373.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/10/afp20220308aa08032022641579v1midresbrentcrudeoilpricerisingupasusandukba-1789047044551.jpg\" /></a>(Dân trí) - Giá dầu Brent đã tăng vọt lên 105 USD/thùng trong bối cảnh căng thẳng leo thang ở Trung Đông làm gia tăng lo ngại về nguồn cung toàn cầu."
+    },
+    {
+      "id": 3,
+      "title": "Sách giáo khoa \"khan hiếm\", doanh số bán online một tháng gây bất ngờ",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/sach-giao-khoa-khan-hiem-doanh-so-ban-online-mot-thang-gay-bat-ngo-20260910203716726.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/10/sach-giao-khoa-huyen-nguyen-1786889944969-1789047171797.jpg\" /></a>(Dân trí) - Sách giáo khoa trên 4 sàn thương mại điện tử đạt doanh số 7,2 tỷ đồng trong hơn một tháng, tăng 112% so với cùng kỳ. Một số đầu sách giáo khoa được rao bán cao gấp hơn 6 lần giá bìa."
     }
   ]
 }

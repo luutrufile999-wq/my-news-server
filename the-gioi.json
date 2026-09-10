@@ -2,8 +2,18 @@
   "articles": [
     {
       "id": 1,
-      "title": "Lỗi",
-      "summary": "Không thể tải tin tức."
+      "title": "Cháy tàu hàng nước ngoài ở Trung Quốc, 25 người thiệt mạng",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/chay-tau-hang-nuoc-ngoai-o-trung-quoc-25-nguoi-thiet-mang-20260910195814256.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/10/chay-tau-hang-trung-quoc-weibo11zon-1789044963508.jpg\" /></a>(Dân trí) - Ít nhất 25 người thiệt mạng, 5 người mất tích sau khi một tàu chở hàng bị cháy trong lúc neo tại một xưởng đóng tàu ở Thanh Đảo (Trung Quốc) để sửa chữa."
+    },
+    {
+      "id": 2,
+      "title": "Vì sao Iran biến căn cứ Mỹ ở Jordan thành \"tọa độ lửa\", ồ ạt tập kích?",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/vi-sao-iran-bien-can-cu-my-o-jordan-thanh-toa-do-lua-o-at-tap-kich-20260910112853904.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/10/14275396-1788933521-1789013292377.jpg\" /></a>(Dân trí) - Iran dường như đang gia tăng các cuộc tấn công nhắm vào hàng loạt cơ sở của Jordan, đặc biệt là căn cứ không quân Al-Azraq, trong bối cảnh căng thẳng leo thang với Mỹ."
+    },
+    {
+      "id": 3,
+      "title": "Ả rập Xê út tấn công dồn dập, Houthi kiểm soát thành phố chiến lược ở Yemen",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/a-rap-xe-ut-tan-cong-don-dap-houthi-kiem-soat-thanh-pho-chien-luoc-o-yemen-20260910183916826.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/10/houthi-x11zon-edited-1789040248199.jpg\" /></a>(Dân trí) - Lực lượng Houthi ở Yemen đã giành quyền kiểm soát thành phố cảng Mocha, qua đó giành thêm lợi thế đối với eo biển chiến lược Bab el-Mandeb."
     }
   ]
 }
