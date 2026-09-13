@@ -2,8 +2,18 @@
   "articles": [
     {
       "id": 1,
-      "title": "Lỗi",
-      "summary": "Không thể tải tin tức."
+      "title": "Tổng Giám đốc WTO: Các chỉ số phản ánh quản trị kinh tế vĩ mô rất tốt của Việt Nam",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/tong-giam-doc-wto-cac-chi-so-phan-anh-quan-tri-kinh-te-vi-mo-rat-tot-cua-viet-nam-20260913122754295.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/13/thu-tuong-va-tong-giam-doc-wto-1789277148525.png\" /></a>(Dân trí) - Ngày 12/9, nhân dịp tham dự Hội nghị thượng đỉnh BRICS tại New Delhi, Ấn Độ, Thủ tướng Lê Minh Hưng đã tiếp Tổng Giám đốc Tổ chức Thương mại thế giới (WTO) Ngozi Okonjo-Iweala."
+    },
+    {
+      "id": 2,
+      "title": "Giá nông sản hôm nay 13/9: Thịt heo, gà cùng giảm giá",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/gia-nong-san-hom-nay-139-thit-heo-ga-cung-giam-gia-20260913120439005.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/13/anh-2-chan-nuoi-heo-cropped-1789275719364.jpg\" /></a>(Dân trí) - Giá cà phê hôm nay 13/9 tại các tỉnh Tây Nguyên giảm nhẹ, trong khi giá lúa, heo và gà… cũng đang chịu áp lực điều chỉnh."
+    },
+    {
+      "id": 3,
+      "title": "Lãi suất liên ngân hàng giảm mạnh về 1,5%, lãi suất huy động vẫn cao",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/lai-suat-lien-ngan-hang-giam-manh-ve-15-lai-suat-huy-dong-van-cao-20260913112034727.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/01/anh-minh-hoa-giao-dich-tien-matthanh-dong-34-1788198181468.jpg?watermark=true\" /></a>(Dân trí) - Lãi suất liên ngân hàng giảm mạnh, đặc biệt ở các kỳ hạn ngắn, nhưng mặt bằng lãi suất huy động tại nhiều ngân hàng vẫn ở mức cao, với một số khoản tiền gửi có thể hưởng lãi suất trên 9%/năm."
     }
   ]
 }

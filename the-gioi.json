@@ -2,8 +2,18 @@
   "articles": [
     {
       "id": 1,
-      "title": "Lỗi",
-      "summary": "Không thể tải tin tức."
+      "title": "Chiến sự Ukraine 13/9: Tình huống khác lạ đang diễn ra tại Ukraine",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/chien-su-ukraine-139-tinh-huong-khac-la-dang-dien-ra-tai-ukraine-20260913112021642.htm\"><img src=\"https://icdn.dantri.com.vn/2024/07/04/chien-su-nga-ukraine-anhminhhoaskynews133-crop-1720059567364.jpeg\" /></a>(Dân trí) - Trong 24 giờ qua, Nga đã phóng hơn 500 UAV vào Ukraine, trong đó có 410 chiếc được tung ra chỉ trong khoảng thời gian từ 6h sáng đến 6h chiều 12/9, một tình huống đặc biệt khác lạ."
+    },
+    {
+      "id": 2,
+      "title": "Tàu chở 240 người bất ngờ mất liên lạc giữa biển, Indonesia hối hả tìm kiếm",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/tau-cho-240-nguoi-bat-ngo-mat-lien-lac-giua-bien-indonesia-hoi-ha-tim-kiem-20260913110115938.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/13/tau-indonesia-edited-1789271809768.jpg\" /></a>(Dân trí) - Indonesia điều động lực lượng nhằm tìm kiếm một con tàu bị mất liên lạc khi đang chở theo hơn 200 người."
+    },
+    {
+      "id": 3,
+      "title": "Houthi giành đảo chiến lược, siết chặt \"yết hầu\" biển Đỏ",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/houthi-gianh-dao-chien-luoc-siet-chat-yet-hau-bien-do-20260913101941724.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/13/houthi-yemennyt-1700439488530-1780909328409-1789269151756.jpg\" /></a>(Dân trí) - Lực lượng Houthi đã chiếm đảo Mayun, qua đó siết chặt kiểm soát với khu vực phía đông biển Đỏ và có được một vị trí chiến lược tại eo biển Bab al-Mandeb."
     }
   ]
 }
