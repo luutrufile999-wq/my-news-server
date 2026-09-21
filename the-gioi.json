@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Iran nêu 7 điều kiện đàm phán, Tổng thống Trump cân nhắc 3 kịch bản",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/iran-neu-7-dieu-kien-dam-phan-tong-thong-trump-can-nhac-3-kich-ban-20260921060036840.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/04/trump-reuters011zon-1788504922536.jpg\" /></a>(Dân trí) - Tổng thống Mỹ Donald Trump tuyên bố \"những điều rất lớn\" sắp diễn ra trong cuộc chiến với Iran."
+    },
+    {
+      "id": 2,
       "title": "Nga cảnh báo EU về khủng hoảng năng lượng nghiêm trọng nhất lịch sử",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/nga-canh-bao-eu-ve-khung-hoang-nang-luong-nghiem-trong-nhat-lich-su-20260920225135063.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/20/nga-noi-eu-doi-mat-khung-hoang-nang-luong-nghiem-trong-nhat-lich-su-cropped-1789919385686.jpg\" /></a>(Dân trí) - Quan chức Nga cho rằng EU đang phải đối mặt “cuộc khủng hoảng năng lượng nghiêm trọng nhất lịch sử” khi các cuộc xung đột bùng phát."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Iran gửi loạt điều kiện mới cho Mỹ, mở đường chấm dứt xung đột?",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/iran-gui-loat-dieu-kien-moi-cho-my-mo-duong-cham-dut-xung-dot-20260920205058128.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/20/tehran-reuters-1789911986294.jpg\" /></a>(Dân trí) - Việc Iran gửi đề xuất với các điều kiện mới cho Mỹ được xem là dấu hiệu cho thấy khả năng giải quyết xung đột sau 8 tháng căng thẳng."
-    },
-    {
-      "id": 3,
-      "title": "Lãnh đạo Greenland lên tiếng về thỏa thuận với Mỹ",
-      "summary": "<a href=\"https://dantri.com.vn/the-gioi/lanh-dao-greenland-len-tieng-ve-thoa-thuan-voi-my-20260920180531383.htm\"><img src=\"https://icdn.dantri.com.vn/2026/01/14/cancumygreenlandgettyjpg-1768378209920.jpg\" /></a>(Dân trí) - Đan Mạch hy vọng thỏa thuận mới với Mỹ sẽ chấm dứt những bất đồng liên quan tới vùng lãnh thổ tự trị Greenland."
     }
   ]
 }
