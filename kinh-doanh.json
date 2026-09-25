@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Du khách ồ ạt quét mã QR tại Việt Nam, giao dịch tăng vọt",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/du-khach-o-at-quet-ma-qr-tai-viet-nam-giao-dich-tang-vot-20260925201732148.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/25/vietqrglobal-1790341833227.png\" /></a>(Dân trí) - Giao dịch qua mã QR của du khách Đông Nam Á và Trung Quốc tại Việt Nam đang ghi nhận mức tăng trưởng theo cấp số nhân, mở ra dư địa lớn cho ngành bán lẻ và dịch vụ lưu trú."
+    },
+    {
+      "id": 2,
       "title": "Bộ Công Thương chính thức có thêm Thứ trưởng mới",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/bo-cong-thuong-chinh-thuc-co-them-thu-truong-moi-20260925180525355.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/25/thu-truong-cong-thuong-edited-1790334167438.jpg\" /></a>(Dân trí) - Thủ tướng Lê Minh Hưng vừa ký quyết định bổ nhiệm ông Lương Hoàng Thái, Cục trưởng Cục Phòng vệ thương mại, giữ chức Thứ trưởng Bộ Công Thương."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Ngân hàng Nhật Bản SMBC muốn nâng tỷ lệ sở hữu tại VPBank lên 20%?",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/ngan-hang-nhat-ban-smbc-muon-nang-ty-le-so-huu-tai-vpbank-len-20-20260925173503742.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/25/vpbank-giao-dich31-1790332351565.jpg?watermark=v1\" /></a>(Dân trí) - Reuters dẫn nguồn tin cho biết SMBC đang đàm phán nâng tỷ lệ sở hữu tại VPBank từ 15% lên khoảng 20%."
-    },
-    {
-      "id": 3,
-      "title": "PNJ dự kiến lỗ hơn 6.200 tỷ đồng năm 2026",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/pnj-du-kien-lo-hon-6200-ty-dong-nam-2026-20260925130224265.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/25/pnj-cropped-1790330665649.jpg\" /></a>(Dân trí) - PNJ dự kiến lỗ sau thuế 6.271 tỷ đồng trong năm 2026 do phải trích lập dự phòng hơn 7.000 tỷ đồng liên quan chính sách thu đổi hàng hóa. Doanh nghiệp cũng đề xuất không chia cổ tức tiền mặt năm nay."
     }
   ]
 }
