@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Hong Kong xây dựng vị thế \"kho vàng thế giới\" với thỏa thuận xây dựng nhà máy tinh luyện",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/hong-kong-xay-dung-vi-the-kho-vang-the-gioi-voi-thoa-thuan-xay-dung-nha-may-tinh-luyen-20261025075245014.htm\"><img src=\"https://icdn.dantri.com.vn/2026/10/25/vang-thoi-cropped-1792892633526.jpg\" /></a>(Dân trí) - Thỏa thuận vừa được ký kết sẽ đưa các nhà máy tinh luyện vàng về sản xuất ngay tại Hong Kong (Trung Quốc), giúp thành phố hình thành hệ sinh thái giao dịch vàng hoàn chỉnh."
+    },
+    {
+      "id": 2,
       "title": "Nghịch lý nhà đầu tư vay nợ chứng khoán hơn 457.000 tỷ đồng dù thanh khoản giảm",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/nghich-ly-nha-dau-tu-vay-no-chung-khoan-hon-457000-ty-dong-du-thanh-khoan-giam-20261024232820444.htm\"><img src=\"https://icdn.dantri.com.vn/2026/10/24/chung-khoanckhsxhnxhuu-khoa5-crop-crop-cropped-cropped-1792859023578.jpg\" /></a>(Dân trí) - Dư nợ margin (khoản tiền nhà đầu tư vay) tại 78 công ty chứng khoán chạm đỉnh lịch sử hơn 457.000 tỷ đồng trong bối cảnh thanh khoản trầm lắng, thị giá nhiều cổ phiếu về đáy hơn một năm."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Lâu lâu mới gặp cá rô bí, bà nội trợ mua ngay với giá 120.000 đồng/kg",
       "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/lau-lau-moi-gap-ca-ro-bi-ba-noi-tro-mua-ngay-voi-gia-120000-dongkg-20261024173649268.htm\"><img src=\"https://icdn.dantri.com.vn/2026/10/24/ro-bi-3-cropped-1792837974568.jpg\" /></a>(Dân trí) - Từng là loại cá đồng dân dã, có đầy ngoài ruộng, cá rô bí nay được bán với giá lên tới 120.000 đồng/kg. Nguồn cung hạn chế và không thường xuyên khiến nhiều người nội trợ tranh thủ mua khi gặp."
-    },
-    {
-      "id": 3,
-      "title": "Vì sao giá xăng E5 RON 92 đắt hơn E10 RON 95-III?",
-      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/vi-sao-gia-xang-e5-ron-92-dat-hon-e10-ron-95-iii-20261024211154072.htm\"><img src=\"https://icdn.dantri.com.vn/2026/03/11/xang-dauhai-longpng-1773212336480.png?watermark=v1\" /></a>(Dân trí) - Từ kỳ điều hành ngày 22/10, xăng E10 RON 95-III có giá bán thấp hơn E5 RON 92 dù có chỉ số octan cao hơn. Mức chênh lệch này đến từ nhiều yếu tố cấu thành giá, trong đó có thuế tiêu thụ đặc biệt."
     }
   ]
 }
