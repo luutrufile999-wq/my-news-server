@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Ba mặt trận quyết định nghị trình bầu cử giữa nhiệm kỳ Mỹ",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/ba-mat-tran-quyet-dinh-nghi-trinh-bau-cu-giua-nhiem-ky-my-20261031222918335.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/18/afp202604112270914397v2midrespresidenttrumpdepartswashingtonenroutetomiami-edited-1784373736515.jpg\" /></a>(Dân trí) - Ngày 3/11, cử tri Mỹ đi bỏ phiếu trong cuộc bầu cử giữa nhiệm kỳ, quyết định liệu đảng Cộng hòa có giữ được quyền kiểm soát cả Hạ viện lẫn Thượng viện hay không."
+    },
+    {
+      "id": 2,
       "title": "Lộ trình di tản dân trong lệnh ngừng bắn nhân đạo dài nhất giữa Nga-Ukraine",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/lo-trinh-di-tan-dan-trong-lenh-ngung-ban-nhan-dao-dai-nhat-giua-nga-ukraine-20261031201118504.htm\"><img src=\"https://icdn.dantri.com.vn/2026/10/31/8b03cac28bd1dadb83d40e6099a34561967ebfd713624aabe4f40fd15e601193-1793451798936.webp\" /></a>(Dân trí) - Những người muốn rời khỏi Oleshky (Alyoshki) ở vùng Kherson do Nga kiểm soát được di tản bằng xe buýt, máy bay và được lựa chọn đến Nga hoặc Ukraine."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Lãnh tụ Tối cao Iran ra chỉ thị cứng rắn cho quân đội",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/lanh-tu-toi-cao-iran-ra-chi-thi-cung-ran-cho-quan-doi-20261031194135744.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/09/lanh-tu-toi-cao-irantasnim-cropped-1786278108685.jpg\" /></a>(Dân trí) - Lãnh tụ Tối cao Iran, Đại giáo chủ Seyyed Mojtaba Khamenei, đã ra chỉ thị mới tới các chỉ huy quân sự cấp cao nhằm đối phó với mối đe dọa từ các đối phương."
-    },
-    {
-      "id": 3,
-      "title": "Chó mèo mặc kimono đi lễ hội truyền thống dành cho trẻ em ở Nhật Bản",
-      "summary": "<a href=\"https://dantri.com.vn/dt360/cho-meo-mac-kimono-di-le-hoi-truyen-thong-danh-cho-tre-em-o-nhat-ban-20261031173330295.htm\"><img src=\"https://icdn.dantri.com.vn/2026/10/31/cho-meo-mac-kimono-o-nhat-ban-cropped-1793442746052.jpg\" /></a>(Dân trí) - Những chú chó, mèo được mặc kimono, đưa đến đền thờ ở Nhật Bản để nhận lời chúc phúc trong lễ hội Shichi-Go-San, vốn dành cho trẻ em 3, 5 và 7 tuổi."
     }
   ]
 }
