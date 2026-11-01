@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Ông Zelensky sẵn sàng đàm phán trực tiếp với ông Putin ở Thổ Nhĩ Kỳ",
+      "summary": "<a href=\"https://dantri.com.vn/the-gioi/ong-zelensky-san-sang-dam-phan-truc-tiep-voi-ong-putin-o-tho-nhi-ky-20261102052202393.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/12/tong-thong-ukraine-zelensky-reuters011zon-1786488765226.jpg\" /></a>(Dân trí) - Tổng thống Ukraine Volodymyr Zelensky tuyên bố ông sẵn sàng gặp trực tiếp Tổng thống Nga Vladimir Putin tại Thổ Nhĩ Kỳ để đàm phán một lệnh ngừng bắn trên toàn chiến tuyến."
+    },
+    {
+      "id": 2,
       "title": "Vì sao lãnh đạo 2 nước NATO bất ngờ điện đàm với Tổng thống Putin?",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/vi-sao-lanh-dao-2-nuoc-nato-bat-ngo-dien-dam-voi-tong-thong-putin-20261101195116166.htm\"><img src=\"https://icdn.dantri.com.vn/2026/11/01/vi-sao-lanh-dao-2-nuoc-nato-bat-ngo-dien-dam-voi-tong-thong-putin-edited-1793537320781.jpg\" /></a>(Dân trí) - Tổng thống Phần Lan cho biết việc ông cùng Thủ tướng Na Uy trực tiếp lắng nghe quan điểm của nhà lãnh đạo Nga về vấn đề Ukraine là điều quan trọng."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Điện Kremlin: Tổng thống Zelensky có thể đến Moscow nếu muốn đàm phán",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/dien-kremlin-tong-thong-zelensky-co-the-den-moscow-neu-muon-dam-phan-20261101182532390.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/21/putinzelenskyafp-cropped-1782027853551.jpg\" /></a>(Dân trí) - Quan chức Điện Kremlin khẳng định Tổng thống Nga chưa bao giờ từ chối đối thoại, có thể sẽ hồi đáp cuộc gọi từ nhà lãnh đạo Ukraine."
-    },
-    {
-      "id": 3,
-      "title": "Mỹ dọa “xử lý” pháo đài hạt nhân Iran, cảnh báo tấn công trong 10 phút",
-      "summary": "<a href=\"https://dantri.com.vn/the-gioi/my-doa-xu-ly-phao-dai-hat-nhan-iran-canh-bao-tan-cong-trong-10-phut-20261101175649112.htm\"><img src=\"https://icdn.dantri.com.vn/2026/11/01/trump-reuters-1793530467704.jpg\" /></a>(Dân trí) - Tổng thống Mỹ Donald Trump cảnh báo tấn công một số mục tiêu tại Iran, trong đó có thể bao gồm một địa điểm bị nghi liên quan đến chương trình hạt nhân."
     }
   ]
 }
